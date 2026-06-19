@@ -1,16 +1,16 @@
 window.PORTFOLIO_DATA = {
   "profile": {
     "name": "Ivan Churba",
-    "role": "Generacion IA, edicion y contenido audiovisual",
+    "role": "Edición, generación visual y contenido audiovisual",
     "email": "ivan.churba@gmail.com"
   },
   "sections": [
     {
-      "title": "Edicion de video + Generacion IA",
-      "kicker": "Video + IA",
-      "description": "Piezas donde edicion, generacion y adaptacion audiovisual trabajan juntas.",
+      "title": "Edición + Generación",
+      "kicker": "Edición + Generación",
+      "description": "Piezas donde edición, generación visual y adaptación audiovisual trabajan juntas.",
       "href": "edicion-generacion-ia.html",
-      "accent": "#74d9c4",
+      "accent": "#8b5cf6",
       "slug": "edicion-generacion-ia",
       "projects": [
         {
@@ -516,7 +516,7 @@ window.PORTFOLIO_DATA = {
       "kicker": "Imagen IA",
       "description": "Imagenes, campanas graficas y storyboards generados o desarrollados con IA.",
       "href": "generacion-imagenes-ia.html",
-      "accent": "#9fd7ff",
+      "accent": "#c026d3",
       "slug": "generacion-imagenes-ia",
       "projects": [
         {
@@ -964,7 +964,7 @@ window.PORTFOLIO_DATA = {
       "kicker": "Video IA",
       "description": "Piezas audiovisuales generadas con IA para marcas, productos y contenidos digitales.",
       "href": "generacion-video-ia.html",
-      "accent": "#b8f06a",
+      "accent": "#8b5cf6",
       "slug": "generacion-video-ia",
       "projects": [
         {

@@ -3,59 +3,78 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ivan Churba | Portfolio</title>
-    <meta name="description" content="Portfolio de Ivan Churba: edicion, generacion IA, video, imagen y contenido audiovisual.">
-    <link rel="stylesheet" href="styles.css">
+    <title>Ivan Churba | Portfolio Audiovisual</title>
+    <meta name="description" content="Portfolio audiovisual de Ivan Churba: edición, generación visual, producción, postproducción, sonido y contenido para marcas.">
+    <link rel="stylesheet" href="styles.css?v=20260619-premium-orbital">
   </head>
   <body data-page="home">
-    <header class="site-header">
+    <header class="site-header home-header">
       <a class="brand" href="index.html" aria-label="Inicio">
         <span>Ivan Churba</span>
         <small>Portfolio audiovisual</small>
       </a>
       <nav class="top-nav" aria-label="Navegacion principal">
-        <a href="edicion-generacion-ia.html">Video + IA</a>
-        <a href="generacion-imagenes-ia.html">Imagen IA</a>
-        <a href="generacion-video-ia.html">Video IA</a>
+        <a href="#work">Proyectos</a>
+        <a href="#contacto">Contacto</a>
       </nav>
-      <a class="mail-link" href="mailto:ivan.churba@gmail.com">Contacto</a>
+      <a class="mail-link" href="mailto:ivan.churba@gmail.com">ivan.churba@gmail.com</a>
     </header>
 
     <main>
-      <section class="landing">
-        <div class="landing-copy">
+      <section class="home-hero">
+        <div class="hero-copy reveal">
           <p class="eyebrow">Portfolio audiovisual</p>
           <h1>Ivan Churba</h1>
-          <p class="lead">Generacion IA, edicion y piezas visuales para marcas.</p>
-          <div class="landing-actions">
-            <a class="button primary" href="#categorias">Ver categorias</a>
-            <a class="button secondary" href="mailto:ivan.churba@gmail.com">ivan.churba@gmail.com</a>
+          <p class="hero-lead">Edición, generación visual, producción, postproducción y sonido para piezas de marca, campañas y contenidos digitales.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">Ver proyectos</a>
+            <a class="button secondary" href="mailto:ivan.churba@gmail.com">Contacto</a>
           </div>
         </div>
-        <section class="reel-card" aria-label="Reel">
-          <div class="reel-placeholder">
-            <span>Reel</span>
-            <strong>Proximamente</strong>
+
+        <div class="hero-montage reveal" aria-label="Reel interactivo de proyectos">
+          <div class="montage-track" id="heroMontage"></div>
+          <div class="montage-caption">
+            <span>Reel interactivo</span>
+            <strong>Elegí una pieza</strong>
           </div>
-          <p>Un video demo con un pantallazo rapido de proyectos, estilos y formatos.</p>
-        </section>
+          <div class="reel-controls" aria-label="Controles de reel">
+            <button class="reel-arrow reel-arrow-prev" type="button" data-reel-action="prev" aria-label="Proyecto anterior">Anterior</button>
+            <button type="button" data-reel-action="toggle">Pausar</button>
+            <button class="reel-arrow reel-arrow-next" type="button" data-reel-action="next" aria-label="Proyecto siguiente">Siguiente</button>
+          </div>
+        </div>
       </section>
 
-      <section class="section-band" id="categorias">
-        <div class="section-intro">
-          <p class="eyebrow">Categorias principales</p>
-          <h2>Trabajos</h2>
+      <section class="work-section" id="work">
+        <div class="work-heading reveal">
+          <div>
+            <p class="eyebrow">Work</p>
+            <h2>Proyectos seleccionados</h2>
+          </div>
+          <p>Una selección de trabajos de edición, generación, imagen, postproducción y piezas audiovisuales para marcas.</p>
         </div>
-        <div class="section-cards" id="homeSections"></div>
+
+        <div class="work-filters reveal" id="workFilters" aria-label="Filtros de proyectos"></div>
+        <div class="work-grid" id="workGrid"></div>
+      </section>
+
+      <section class="contact-section reveal" id="contacto">
+        <p class="eyebrow">Contacto</p>
+        <h2>Edición, producción y contenido audiovisual.</h2>
+        <a href="mailto:ivan.churba@gmail.com">ivan.churba@gmail.com</a>
       </section>
     </main>
 
-    <dialog class="viewer" id="viewer">
-      <button class="viewer-close" data-close-viewer aria-label="Cerrar">Cerrar</button>
-      <div class="viewer-body" id="viewerBody"></div>
-    </dialog>
+    <aside class="project-drawer" id="projectDrawer" aria-hidden="true">
+      <button class="drawer-scrim" data-close-project aria-label="Cerrar detalle"></button>
+      <section class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+        <button class="drawer-close" data-close-project aria-label="Cerrar">Cerrar</button>
+        <div class="drawer-body" id="drawerBody"></div>
+      </section>
+    </aside>
 
-    <script src="data/site-data.js?v=20260618-youtube-fix-2"></script>
-    <script src="app.js?v=20260618-youtube-fix-2"></script>
+    <script src="data/site-data.js?v=20260619-premium-orbital"></script>
+    <script src="app.js?v=20260619-premium-orbital"></script>
   </body>
 </html>
