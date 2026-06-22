@@ -512,13 +512,213 @@ window.PORTFOLIO_DATA = {
       ]
     },
     {
-      "title": "Generacion de Imagenes IA",
-      "kicker": "Imagen IA",
-      "description": "Imagenes, campanas graficas y storyboards generados o desarrollados con IA.",
-      "href": "generacion-imagenes-ia.html",
-      "accent": "#c026d3",
-      "slug": "generacion-imagenes-ia",
+      "title": "Imagen + Video IA",
+      "kicker": "Imagen + Video IA",
+      "description": "Piezas de generación visual, imagen y video para campañas, productos y contenidos digitales.",
+      "href": "generacion-ia.html",
+      "accent": "#8b5cf6",
+      "slug": "generacion-imagen-video-ia",
       "projects": [
+        {
+          "title": "BNA Mundial",
+          "description": "Promos y PNTs generados para verticales de comunicacion del banco.",
+          "kind": "video",
+          "galleryHref": "",
+          "mainId": "a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9",
+          "main": {
+            "id": "a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9",
+            "title": "Promo Generico",
+            "type": "video",
+            "preview": "assets/posters/a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9.jpg",
+            "original": "https://youtu.be/llfRzn-AZbs",
+            "full": "https://youtu.be/llfRzn-AZbs",
+            "extension": "MP4",
+            "sizeMb": 179.2,
+            "provider": "youtube",
+            "youtubeId": "llfRzn-AZbs",
+            "youtubeUrl": "https://youtu.be/llfRzn-AZbs",
+            "embedUrl": "https://www.youtube.com/embed/llfRzn-AZbs"
+          },
+          "pieces": [
+            {
+              "id": "a-generacion-bna-bna-mundial-pnt-combustible-16x9-15seg",
+              "title": "PNT Combustible",
+              "type": "video",
+              "preview": "assets/posters/a-generacion-bna-bna-mundial-pnt-combustible-16x9-15seg.jpg",
+              "original": "https://youtu.be/rM6uXCiIf_0",
+              "full": "https://youtu.be/rM6uXCiIf_0",
+              "extension": "MP4",
+              "sizeMb": 89.1,
+              "provider": "youtube",
+              "youtubeId": "rM6uXCiIf_0",
+              "youtubeUrl": "https://youtu.be/rM6uXCiIf_0",
+              "embedUrl": "https://www.youtube.com/embed/rM6uXCiIf_0"
+            },
+            {
+              "id": "a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9",
+              "title": "Promo Generico",
+              "type": "video",
+              "preview": "assets/posters/a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9.jpg",
+              "original": "https://youtu.be/llfRzn-AZbs",
+              "full": "https://youtu.be/llfRzn-AZbs",
+              "extension": "MP4",
+              "sizeMb": 179.2,
+              "provider": "youtube",
+              "youtubeId": "llfRzn-AZbs",
+              "youtubeUrl": "https://youtu.be/llfRzn-AZbs",
+              "embedUrl": "https://www.youtube.com/embed/llfRzn-AZbs"
+            },
+            {
+              "id": "a-generacion-bna-bna-mundial-promo-hogar-27-seg-16x9",
+              "title": "Promo Hogar",
+              "type": "video",
+              "preview": "assets/posters/a-generacion-bna-bna-mundial-promo-hogar-27-seg-16x9.jpg",
+              "original": "https://youtu.be/xLDvQL1xEQQ",
+              "full": "https://youtu.be/xLDvQL1xEQQ",
+              "extension": "MP4",
+              "sizeMb": 161.2,
+              "provider": "youtube",
+              "youtubeId": "xLDvQL1xEQQ",
+              "youtubeUrl": "https://youtu.be/xLDvQL1xEQQ",
+              "embedUrl": "https://www.youtube.com/embed/xLDvQL1xEQQ"
+            },
+            {
+              "id": "a-generacion-bna-bna-mundial-promo-supermercado-27-seg-16x9",
+              "title": "Promo Supermercado",
+              "type": "video",
+              "preview": "assets/posters/a-generacion-bna-bna-mundial-promo-supermercado-27-seg-16x9.jpg",
+              "original": "https://youtu.be/cDsAbMgQFCg",
+              "full": "https://youtu.be/cDsAbMgQFCg",
+              "extension": "MP4",
+              "sizeMb": 161.2,
+              "provider": "youtube",
+              "youtubeId": "cDsAbMgQFCg",
+              "youtubeUrl": "https://youtu.be/cDsAbMgQFCg",
+              "embedUrl": "https://www.youtube.com/embed/cDsAbMgQFCg"
+            }
+          ]
+        },
+        {
+          "title": "Colecciones La Nacion",
+          "description": "Piezas audiovisuales para la coleccion Rock de Aca.",
+          "kind": "video",
+          "galleryHref": "",
+          "mainId": "youtube-colecciones-la-nacion-cerveza",
+          "main": {
+            "id": "youtube-colecciones-la-nacion-cerveza",
+            "title": "Cerveza",
+            "type": "video",
+            "preview": "https://img.youtube.com/vi/S8jC0fGXpcI/hqdefault.jpg",
+            "original": "https://youtu.be/S8jC0fGXpcI",
+            "full": "https://youtu.be/S8jC0fGXpcI",
+            "extension": "YouTube",
+            "sizeMb": 0,
+            "provider": "youtube",
+            "youtubeId": "S8jC0fGXpcI",
+            "youtubeUrl": "https://youtu.be/S8jC0fGXpcI",
+            "embedUrl": "https://www.youtube.com/embed/S8jC0fGXpcI"
+          },
+          "pieces": [
+            {
+              "id": "youtube-colecciones-la-nacion-cerveza",
+              "title": "Cerveza",
+              "type": "video",
+              "preview": "https://img.youtube.com/vi/S8jC0fGXpcI/hqdefault.jpg",
+              "original": "https://youtu.be/S8jC0fGXpcI",
+              "full": "https://youtu.be/S8jC0fGXpcI",
+              "extension": "YouTube",
+              "sizeMb": 0,
+              "provider": "youtube",
+              "youtubeId": "S8jC0fGXpcI",
+              "youtubeUrl": "https://youtu.be/S8jC0fGXpcI",
+              "embedUrl": "https://www.youtube.com/embed/S8jC0fGXpcI"
+            },
+            {
+              "id": "youtube-colecciones-la-nacion-topa",
+              "title": "Topa",
+              "type": "video",
+              "preview": "https://img.youtube.com/vi/3ZPMJCiI4Fs/hqdefault.jpg",
+              "original": "https://youtu.be/3ZPMJCiI4Fs",
+              "full": "https://youtu.be/3ZPMJCiI4Fs",
+              "extension": "YouTube",
+              "sizeMb": 0,
+              "provider": "youtube",
+              "youtubeId": "3ZPMJCiI4Fs",
+              "youtubeUrl": "https://youtu.be/3ZPMJCiI4Fs",
+              "embedUrl": "https://www.youtube.com/embed/3ZPMJCiI4Fs"
+            },
+            {
+              "id": "youtube-colecciones-la-nacion-fito",
+              "title": "Fito",
+              "type": "video",
+              "preview": "https://img.youtube.com/vi/vFLdSbiUKKg/hqdefault.jpg",
+              "original": "https://youtu.be/vFLdSbiUKKg",
+              "full": "https://youtu.be/vFLdSbiUKKg",
+              "extension": "YouTube",
+              "sizeMb": 0,
+              "provider": "youtube",
+              "youtubeId": "vFLdSbiUKKg",
+              "youtubeUrl": "https://youtu.be/vFLdSbiUKKg",
+              "embedUrl": "https://www.youtube.com/embed/vFLdSbiUKKg"
+            },
+            {
+              "id": "youtube-colecciones-la-nacion-seru",
+              "title": "Seru",
+              "type": "video",
+              "preview": "https://img.youtube.com/vi/g-5pDAQby7k/hqdefault.jpg",
+              "original": "https://youtu.be/g-5pDAQby7k",
+              "full": "https://youtu.be/g-5pDAQby7k",
+              "extension": "YouTube",
+              "sizeMb": 0,
+              "provider": "youtube",
+              "youtubeId": "g-5pDAQby7k",
+              "youtubeUrl": "https://youtu.be/g-5pDAQby7k",
+              "embedUrl": "https://www.youtube.com/embed/g-5pDAQby7k"
+            },
+            {
+              "id": "youtube-colecciones-la-nacion-divididos",
+              "title": "Divididos",
+              "type": "video",
+              "preview": "https://img.youtube.com/vi/BV2LO5qyGKM/hqdefault.jpg",
+              "original": "https://youtu.be/BV2LO5qyGKM",
+              "full": "https://youtu.be/BV2LO5qyGKM",
+              "extension": "YouTube",
+              "sizeMb": 0,
+              "provider": "youtube",
+              "youtubeId": "BV2LO5qyGKM",
+              "youtubeUrl": "https://youtu.be/BV2LO5qyGKM",
+              "embedUrl": "https://www.youtube.com/embed/BV2LO5qyGKM"
+            },
+            {
+              "id": "youtube-colecciones-la-nacion-dinosaurios",
+              "title": "Dinosaurios",
+              "type": "video",
+              "preview": "https://img.youtube.com/vi/HqV6gQwRL_k/hqdefault.jpg",
+              "original": "https://youtu.be/HqV6gQwRL_k",
+              "full": "https://youtu.be/HqV6gQwRL_k",
+              "extension": "YouTube",
+              "sizeMb": 0,
+              "provider": "youtube",
+              "youtubeId": "HqV6gQwRL_k",
+              "youtubeUrl": "https://youtu.be/HqV6gQwRL_k",
+              "embedUrl": "https://www.youtube.com/embed/HqV6gQwRL_k"
+            },
+            {
+              "id": "youtube-colecciones-la-nacion-esqueleto",
+              "title": "Esqueleto",
+              "type": "video",
+              "preview": "https://img.youtube.com/vi/32graIt3jCE/hqdefault.jpg",
+              "original": "https://youtu.be/32graIt3jCE",
+              "full": "https://youtu.be/32graIt3jCE",
+              "extension": "YouTube",
+              "sizeMb": 0,
+              "provider": "youtube",
+              "youtubeId": "32graIt3jCE",
+              "youtubeUrl": "https://youtu.be/32graIt3jCE",
+              "embedUrl": "https://www.youtube.com/embed/32graIt3jCE"
+            }
+          ]
+        },
         {
           "title": "Coppel Mexico",
           "description": "Galeria de imagenes finales para campana grafica. Se excluyen masters TIF pesados.",
@@ -715,6 +915,207 @@ window.PORTFOLIO_DATA = {
               "full": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/embarazada-06-gris-cm-300-dpi.webp",
               "extension": "JPG",
               "sizeMb": 767.7
+            }
+          ]
+        },
+        {
+          "title": "Cofler Gold",
+          "description": "Pieza de producto con foco en generación visual, textura y presencia de marca.",
+          "kind": "video",
+          "galleryHref": "",
+          "mainId": "new-cofler-gold",
+          "main": {
+            "id": "new-cofler-gold",
+            "title": "Cofler Gold",
+            "type": "video",
+            "preview": "assets/posters/new-projects/cofler-gold.jpg",
+            "original": "",
+            "full": "",
+            "extension": "MP4",
+            "sizeMb": 0,
+            "provider": "pending-youtube",
+            "youtubeUrl": "",
+            "embedUrl": ""
+          },
+          "pieces": [
+            {
+              "id": "new-cofler-gold",
+              "title": "Cofler Gold",
+              "type": "video",
+              "preview": "assets/posters/new-projects/cofler-gold.jpg",
+              "original": "",
+              "full": "",
+              "extension": "MP4",
+              "sizeMb": 0,
+              "provider": "pending-youtube",
+              "youtubeUrl": "",
+              "embedUrl": ""
+            }
+          ]
+        },
+        {
+          "title": "Poxipol",
+          "description": "Serie de piezas generadas para distintas versiones de campaña, agrupadas por locación y variante visual.",
+          "kind": "video",
+          "galleryHref": "",
+          "mainId": "new-poxipol-buenos-aires",
+          "main": {
+            "id": "new-poxipol-buenos-aires",
+            "title": "Buenos Aires",
+            "type": "video",
+            "preview": "assets/posters/new-projects/poxipol-buenos-aires.jpg",
+            "original": "",
+            "full": "",
+            "extension": "MP4",
+            "sizeMb": 0,
+            "provider": "pending-youtube",
+            "youtubeUrl": "",
+            "embedUrl": ""
+          },
+          "pieces": [
+            {
+              "id": "new-poxipol-buenos-aires",
+              "title": "Buenos Aires",
+              "type": "video",
+              "preview": "assets/posters/new-projects/poxipol-buenos-aires.jpg",
+              "original": "",
+              "full": "",
+              "extension": "MP4",
+              "sizeMb": 0,
+              "provider": "pending-youtube",
+              "youtubeUrl": "",
+              "embedUrl": ""
+            },
+            {
+              "id": "new-poxipol-rosario",
+              "title": "Rosario",
+              "type": "video",
+              "preview": "assets/posters/new-projects/poxipol-rosario.jpg",
+              "original": "",
+              "full": "",
+              "extension": "MP4",
+              "sizeMb": 0,
+              "provider": "pending-youtube",
+              "youtubeUrl": "",
+              "embedUrl": ""
+            },
+            {
+              "id": "new-poxipol-obelisco",
+              "title": "Obelisco",
+              "type": "video",
+              "preview": "assets/posters/new-projects/poxipol-obelisco.jpg",
+              "original": "",
+              "full": "",
+              "extension": "MP4",
+              "sizeMb": 0,
+              "provider": "pending-youtube",
+              "youtubeUrl": "",
+              "embedUrl": ""
+            }
+          ]
+        },
+        {
+          "title": "Hogareñas",
+          "description": "Pieza de generación audiovisual para producto, con foco en presencia visual y ritmo digital.",
+          "kind": "video",
+          "galleryHref": "",
+          "mainId": "new-hogarenas-cereal-mix",
+          "main": {
+            "id": "new-hogarenas-cereal-mix",
+            "title": "Cereal Mix",
+            "type": "video",
+            "preview": "assets/posters/new-projects/hogarenas.jpg",
+            "original": "",
+            "full": "",
+            "extension": "MP4",
+            "sizeMb": 0,
+            "provider": "pending-youtube",
+            "youtubeUrl": "",
+            "embedUrl": ""
+          },
+          "pieces": [
+            {
+              "id": "new-hogarenas-cereal-mix",
+              "title": "Cereal Mix",
+              "type": "video",
+              "preview": "assets/posters/new-projects/hogarenas.jpg",
+              "original": "",
+              "full": "",
+              "extension": "MP4",
+              "sizeMb": 0,
+              "provider": "pending-youtube",
+              "youtubeUrl": "",
+              "embedUrl": ""
+            }
+          ]
+        },
+        {
+          "title": "Zurich Hogar Gamer",
+          "description": "Pieza para Zurich Hogar con tratamiento visual orientado a campaña y comunicación digital.",
+          "kind": "video",
+          "galleryHref": "",
+          "mainId": "new-zurich-hogar-gamer",
+          "main": {
+            "id": "new-zurich-hogar-gamer",
+            "title": "Hogar Gamer",
+            "type": "video",
+            "preview": "assets/posters/new-projects/zurich-hogar-gamer.jpg",
+            "original": "",
+            "full": "",
+            "extension": "MOV",
+            "sizeMb": 0,
+            "provider": "pending-youtube",
+            "youtubeUrl": "",
+            "embedUrl": ""
+          },
+          "pieces": [
+            {
+              "id": "new-zurich-hogar-gamer",
+              "title": "Hogar Gamer",
+              "type": "video",
+              "preview": "assets/posters/new-projects/zurich-hogar-gamer.jpg",
+              "original": "",
+              "full": "",
+              "extension": "MOV",
+              "sizeMb": 0,
+              "provider": "pending-youtube",
+              "youtubeUrl": "",
+              "embedUrl": ""
+            }
+          ]
+        },
+        {
+          "title": "Toddler Cambias",
+          "description": "Contenido generado para pieza audiovisual de marca, trabajado desde imagen, ritmo y resolución visual.",
+          "kind": "video",
+          "galleryHref": "",
+          "mainId": "new-toddler-cambias",
+          "main": {
+            "id": "new-toddler-cambias",
+            "title": "Cambias",
+            "type": "video",
+            "preview": "assets/posters/new-projects/toddler-cambias.jpg",
+            "original": "",
+            "full": "",
+            "extension": "MP4",
+            "sizeMb": 0,
+            "provider": "pending-youtube",
+            "youtubeUrl": "",
+            "embedUrl": ""
+          },
+          "pieces": [
+            {
+              "id": "new-toddler-cambias",
+              "title": "Cambias",
+              "type": "video",
+              "preview": "assets/posters/new-projects/toddler-cambias.jpg",
+              "original": "",
+              "full": "",
+              "extension": "MP4",
+              "sizeMb": 0,
+              "provider": "pending-youtube",
+              "youtubeUrl": "",
+              "embedUrl": ""
             }
           ]
         },
@@ -956,216 +1357,6 @@ window.PORTFOLIO_DATA = {
               "sizeMb": 8.0
             }
           ]
-        }
-      ]
-    },
-    {
-      "title": "Generacion de Video IA",
-      "kicker": "Video IA",
-      "description": "Piezas audiovisuales generadas con IA para marcas, productos y contenidos digitales.",
-      "href": "generacion-video-ia.html",
-      "accent": "#8b5cf6",
-      "slug": "generacion-video-ia",
-      "projects": [
-        {
-          "title": "BNA Mundial",
-          "description": "Promos y PNTs generados para verticales de comunicacion del banco.",
-          "kind": "video",
-          "galleryHref": "",
-          "mainId": "a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9",
-          "main": {
-            "id": "a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9",
-            "title": "Promo Generico",
-            "type": "video",
-            "preview": "assets/posters/a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9.jpg",
-            "original": "https://youtu.be/llfRzn-AZbs",
-            "full": "https://youtu.be/llfRzn-AZbs",
-            "extension": "MP4",
-            "sizeMb": 179.2,
-            "provider": "youtube",
-            "youtubeId": "llfRzn-AZbs",
-            "youtubeUrl": "https://youtu.be/llfRzn-AZbs",
-            "embedUrl": "https://www.youtube.com/embed/llfRzn-AZbs"
-          },
-          "pieces": [
-            {
-              "id": "a-generacion-bna-bna-mundial-pnt-combustible-16x9-15seg",
-              "title": "PNT Combustible",
-              "type": "video",
-              "preview": "assets/posters/a-generacion-bna-bna-mundial-pnt-combustible-16x9-15seg.jpg",
-              "original": "https://youtu.be/rM6uXCiIf_0",
-              "full": "https://youtu.be/rM6uXCiIf_0",
-              "extension": "MP4",
-              "sizeMb": 89.1,
-              "provider": "youtube",
-              "youtubeId": "rM6uXCiIf_0",
-              "youtubeUrl": "https://youtu.be/rM6uXCiIf_0",
-              "embedUrl": "https://www.youtube.com/embed/rM6uXCiIf_0"
-            },
-            {
-              "id": "a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9",
-              "title": "Promo Generico",
-              "type": "video",
-              "preview": "assets/posters/a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9.jpg",
-              "original": "https://youtu.be/llfRzn-AZbs",
-              "full": "https://youtu.be/llfRzn-AZbs",
-              "extension": "MP4",
-              "sizeMb": 179.2,
-              "provider": "youtube",
-              "youtubeId": "llfRzn-AZbs",
-              "youtubeUrl": "https://youtu.be/llfRzn-AZbs",
-              "embedUrl": "https://www.youtube.com/embed/llfRzn-AZbs"
-            },
-            {
-              "id": "a-generacion-bna-bna-mundial-promo-hogar-27-seg-16x9",
-              "title": "Promo Hogar",
-              "type": "video",
-              "preview": "assets/posters/a-generacion-bna-bna-mundial-promo-hogar-27-seg-16x9.jpg",
-              "original": "https://youtu.be/xLDvQL1xEQQ",
-              "full": "https://youtu.be/xLDvQL1xEQQ",
-              "extension": "MP4",
-              "sizeMb": 161.2,
-              "provider": "youtube",
-              "youtubeId": "xLDvQL1xEQQ",
-              "youtubeUrl": "https://youtu.be/xLDvQL1xEQQ",
-              "embedUrl": "https://www.youtube.com/embed/xLDvQL1xEQQ"
-            },
-            {
-              "id": "a-generacion-bna-bna-mundial-promo-supermercado-27-seg-16x9",
-              "title": "Promo Supermercado",
-              "type": "video",
-              "preview": "assets/posters/a-generacion-bna-bna-mundial-promo-supermercado-27-seg-16x9.jpg",
-              "original": "https://youtu.be/cDsAbMgQFCg",
-              "full": "https://youtu.be/cDsAbMgQFCg",
-              "extension": "MP4",
-              "sizeMb": 161.2,
-              "provider": "youtube",
-              "youtubeId": "cDsAbMgQFCg",
-              "youtubeUrl": "https://youtu.be/cDsAbMgQFCg",
-              "embedUrl": "https://www.youtube.com/embed/cDsAbMgQFCg"
-            }
-          ]
-        },
-        {
-          "title": "Colecciones La Nacion",
-          "description": "Piezas audiovisuales para la coleccion Rock de Aca.",
-          "kind": "video",
-          "galleryHref": "",
-          "mainId": "youtube-colecciones-la-nacion-cerveza",
-          "main": {
-            "id": "youtube-colecciones-la-nacion-cerveza",
-            "title": "Cerveza",
-            "type": "video",
-            "preview": "https://img.youtube.com/vi/S8jC0fGXpcI/hqdefault.jpg",
-            "original": "https://youtu.be/S8jC0fGXpcI",
-            "full": "https://youtu.be/S8jC0fGXpcI",
-            "extension": "YouTube",
-            "sizeMb": 0,
-            "provider": "youtube",
-            "youtubeId": "S8jC0fGXpcI",
-            "youtubeUrl": "https://youtu.be/S8jC0fGXpcI",
-            "embedUrl": "https://www.youtube.com/embed/S8jC0fGXpcI"
-          },
-          "pieces": [
-            {
-              "id": "youtube-colecciones-la-nacion-cerveza",
-              "title": "Cerveza",
-              "type": "video",
-              "preview": "https://img.youtube.com/vi/S8jC0fGXpcI/hqdefault.jpg",
-              "original": "https://youtu.be/S8jC0fGXpcI",
-              "full": "https://youtu.be/S8jC0fGXpcI",
-              "extension": "YouTube",
-              "sizeMb": 0,
-              "provider": "youtube",
-              "youtubeId": "S8jC0fGXpcI",
-              "youtubeUrl": "https://youtu.be/S8jC0fGXpcI",
-              "embedUrl": "https://www.youtube.com/embed/S8jC0fGXpcI"
-            },
-            {
-              "id": "youtube-colecciones-la-nacion-topa",
-              "title": "Topa",
-              "type": "video",
-              "preview": "https://img.youtube.com/vi/3ZPMJCiI4Fs/hqdefault.jpg",
-              "original": "https://youtu.be/3ZPMJCiI4Fs",
-              "full": "https://youtu.be/3ZPMJCiI4Fs",
-              "extension": "YouTube",
-              "sizeMb": 0,
-              "provider": "youtube",
-              "youtubeId": "3ZPMJCiI4Fs",
-              "youtubeUrl": "https://youtu.be/3ZPMJCiI4Fs",
-              "embedUrl": "https://www.youtube.com/embed/3ZPMJCiI4Fs"
-            },
-            {
-              "id": "youtube-colecciones-la-nacion-fito",
-              "title": "Fito",
-              "type": "video",
-              "preview": "https://img.youtube.com/vi/vFLdSbiUKKg/hqdefault.jpg",
-              "original": "https://youtu.be/vFLdSbiUKKg",
-              "full": "https://youtu.be/vFLdSbiUKKg",
-              "extension": "YouTube",
-              "sizeMb": 0,
-              "provider": "youtube",
-              "youtubeId": "vFLdSbiUKKg",
-              "youtubeUrl": "https://youtu.be/vFLdSbiUKKg",
-              "embedUrl": "https://www.youtube.com/embed/vFLdSbiUKKg"
-            },
-            {
-              "id": "youtube-colecciones-la-nacion-seru",
-              "title": "Seru",
-              "type": "video",
-              "preview": "https://img.youtube.com/vi/g-5pDAQby7k/hqdefault.jpg",
-              "original": "https://youtu.be/g-5pDAQby7k",
-              "full": "https://youtu.be/g-5pDAQby7k",
-              "extension": "YouTube",
-              "sizeMb": 0,
-              "provider": "youtube",
-              "youtubeId": "g-5pDAQby7k",
-              "youtubeUrl": "https://youtu.be/g-5pDAQby7k",
-              "embedUrl": "https://www.youtube.com/embed/g-5pDAQby7k"
-            },
-            {
-              "id": "youtube-colecciones-la-nacion-divididos",
-              "title": "Divididos",
-              "type": "video",
-              "preview": "https://img.youtube.com/vi/BV2LO5qyGKM/hqdefault.jpg",
-              "original": "https://youtu.be/BV2LO5qyGKM",
-              "full": "https://youtu.be/BV2LO5qyGKM",
-              "extension": "YouTube",
-              "sizeMb": 0,
-              "provider": "youtube",
-              "youtubeId": "BV2LO5qyGKM",
-              "youtubeUrl": "https://youtu.be/BV2LO5qyGKM",
-              "embedUrl": "https://www.youtube.com/embed/BV2LO5qyGKM"
-            },
-            {
-              "id": "youtube-colecciones-la-nacion-dinosaurios",
-              "title": "Dinosaurios",
-              "type": "video",
-              "preview": "https://img.youtube.com/vi/HqV6gQwRL_k/hqdefault.jpg",
-              "original": "https://youtu.be/HqV6gQwRL_k",
-              "full": "https://youtu.be/HqV6gQwRL_k",
-              "extension": "YouTube",
-              "sizeMb": 0,
-              "provider": "youtube",
-              "youtubeId": "HqV6gQwRL_k",
-              "youtubeUrl": "https://youtu.be/HqV6gQwRL_k",
-              "embedUrl": "https://www.youtube.com/embed/HqV6gQwRL_k"
-            },
-            {
-              "id": "youtube-colecciones-la-nacion-esqueleto",
-              "title": "Esqueleto",
-              "type": "video",
-              "preview": "https://img.youtube.com/vi/32graIt3jCE/hqdefault.jpg",
-              "original": "https://youtu.be/32graIt3jCE",
-              "full": "https://youtu.be/32graIt3jCE",
-              "extension": "YouTube",
-              "sizeMb": 0,
-              "provider": "youtube",
-              "youtubeId": "32graIt3jCE",
-              "youtubeUrl": "https://youtu.be/32graIt3jCE",
-              "embedUrl": "https://www.youtube.com/embed/32graIt3jCE"
-            }
-          ]
         },
         {
           "title": "Hamlet",
@@ -1312,6 +1503,116 @@ window.PORTFOLIO_DATA = {
               "youtubeId": "XpHZPCY6ifg",
               "youtubeUrl": "https://youtu.be/XpHZPCY6ifg",
               "embedUrl": "https://www.youtube.com/embed/XpHZPCY6ifg"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Producciones",
+      "kicker": "Producciones",
+      "description": "Trabajos filmados en producción real, con asistencia en rodaje y sonido directo.",
+      "href": "index.html#work",
+      "accent": "#c026d3",
+      "slug": "producciones",
+      "projects": [
+        {
+          "title": "UNICEF",
+          "description": "Producciones filmadas para UNICEF, agrupadas como piezas de rodaje y contenido institucional/digital.",
+          "kind": "video",
+          "galleryHref": "",
+          "mainId": "new-unicef-tiago-bhavi-1",
+          "main": {
+            "id": "new-unicef-tiago-bhavi-1",
+            "title": "Rap Digital: Tiago / Bhavi 1",
+            "type": "video",
+            "preview": "assets/posters/new-projects/unicef-tiago-bhavi-1.jpg",
+            "original": "",
+            "full": "",
+            "extension": "MP4",
+            "sizeMb": 0,
+            "provider": "pending-youtube",
+            "youtubeUrl": "",
+            "embedUrl": ""
+          },
+          "pieces": [
+            {
+              "id": "new-unicef-tiago-bhavi-1",
+              "title": "Rap Digital: Tiago / Bhavi 1",
+              "type": "video",
+              "preview": "assets/posters/new-projects/unicef-tiago-bhavi-1.jpg",
+              "original": "",
+              "full": "",
+              "extension": "MP4",
+              "sizeMb": 0,
+              "provider": "pending-youtube",
+              "youtubeUrl": "",
+              "embedUrl": ""
+            },
+            {
+              "id": "new-unicef-tiago-bhavi-2",
+              "title": "Rap Digital: Tiago / Bhavi 2",
+              "type": "video",
+              "preview": "assets/posters/new-projects/unicef-tiago-bhavi-2.jpg",
+              "original": "",
+              "full": "",
+              "extension": "MP4",
+              "sizeMb": 0,
+              "provider": "pending-youtube",
+              "youtubeUrl": "",
+              "embedUrl": ""
+            },
+            {
+              "id": "new-unicef-tink-dozer",
+              "title": "Rap Digital: Tink / Dozer",
+              "type": "video",
+              "preview": "assets/posters/new-projects/unicef-tink-dozer.jpg",
+              "original": "",
+              "full": "",
+              "extension": "MP4",
+              "sizeMb": 0,
+              "provider": "pending-youtube",
+              "youtubeUrl": "",
+              "embedUrl": ""
+            },
+            {
+              "id": "new-unicef-los-alamos-institucional",
+              "title": "Los Álamos Institucional",
+              "type": "video",
+              "preview": "assets/posters/new-projects/unicef-los-alamos-institucional.jpg",
+              "original": "",
+              "full": "",
+              "extension": "MP4",
+              "sizeMb": 0,
+              "provider": "pending-youtube",
+              "youtubeUrl": "",
+              "embedUrl": ""
+            },
+            {
+              "id": "new-unicef-armado-los-alamos",
+              "title": "Armado Los Álamos",
+              "type": "video",
+              "preview": "assets/posters/new-projects/unicef-armado-los-alamos.jpg",
+              "original": "",
+              "full": "",
+              "extension": "MP4",
+              "sizeMb": 0,
+              "provider": "pending-youtube",
+              "youtubeUrl": "",
+              "embedUrl": ""
+            },
+            {
+              "id": "new-unicef-sebastian-waisgrais",
+              "title": "Sebastián Waisgrais",
+              "type": "video",
+              "preview": "assets/posters/new-projects/unicef-sebastian-waisgrais.jpg",
+              "original": "",
+              "full": "",
+              "extension": "MP4",
+              "sizeMb": 0,
+              "provider": "pending-youtube",
+              "youtubeUrl": "",
+              "embedUrl": ""
             }
           ]
         }

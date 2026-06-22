@@ -12,9 +12,29 @@ let reelState = { active: 0, paused: false, timer: null };
 const FILTERS = [
   { id: "all", label: "Todos" },
   { id: "edicion-generacion-ia", label: "Edición + Generación" },
-  { id: "generacion-video-ia", label: "Video IA" },
-  { id: "generacion-imagenes-ia", label: "Imagen IA" },
-  { id: "producciones", label: "Producciones", hidden: true },
+  { id: "generacion-imagen-video-ia", label: "Imagen + Video IA" },
+  { id: "producciones", label: "Producciones" },
+];
+
+const HOME_GRID_PROJECTS = [
+  "BNA Mundial",
+  "Cofler Cups",
+  "Colecciones La Nacion",
+  "Coppel Mexico",
+  "Alfajor GOAT",
+  "UNICEF",
+];
+
+const HOME_REEL_PROJECTS = [
+  "BNA Mundial",
+  "Cofler Cups",
+  "Colecciones La Nacion",
+  "Coppel Mexico",
+  "Alfajor GOAT",
+  "UNICEF",
+  "Poxipol",
+  "Cofler Gold",
+  "Arcor Navidad",
 ];
 
 const PROJECT_DETAILS = {
@@ -90,6 +110,30 @@ const PROJECT_DETAILS = {
     role: "Generación visual, edición y pieza digital",
     brief: "Pieza para entorno digital con lenguaje de marca, ritmo visual y foco en impacto inmediato.",
   },
+  "Hogareñas": {
+    role: "Generación visual, edición y desarrollo audiovisual",
+    brief: "Pieza de producto trabajada desde generación visual, composición y ritmo para comunicación digital.",
+  },
+  "Zurich Hogar Gamer": {
+    role: "Generación visual, edición y desarrollo audiovisual",
+    brief: "Contenido para campaña de Zurich Hogar, con tratamiento visual orientado a una lectura rápida y clara.",
+  },
+  "Toddler Cambias": {
+    role: "Generación visual, edición y desarrollo audiovisual",
+    brief: "Pieza audiovisual generada para marca, con foco en imagen, timing y resolución visual.",
+  },
+  "Cofler Gold": {
+    role: "Generación visual, edición y desarrollo audiovisual",
+    brief: "Contenido de producto centrado en presencia de marca, textura visual y acabado para entorno digital.",
+  },
+  "Poxipol": {
+    role: "Generación visual, edición y desarrollo audiovisual",
+    brief: "Serie de versiones curadas por locación para mostrar distintas resoluciones visuales de campaña.",
+  },
+  "UNICEF": {
+    role: "Asistencia de producción y sonido directo",
+    brief: "Producciones filmadas en rodaje real, con asistencia integral en set y registro de sonido directo.",
+  },
 };
 
 function escapeHtml(value) {
@@ -122,6 +166,24 @@ function findPiece(id) {
   return null;
 }
 
+function projectsByTitle(titles) {
+  const projects = allProjects();
+  return titles
+    .map((title) => projects.find((project) => project.title === title))
+    .filter(Boolean);
+}
+
+function homeOrderedProjects(projects) {
+  const featured = HOME_GRID_PROJECTS
+    .map((title) => projects.find((project) => project.title === title))
+    .filter(Boolean);
+  const featuredTitles = new Set(featured.map((project) => project.title));
+  return [
+    ...featured,
+    ...projects.filter((project) => !featuredTitles.has(project.title)),
+  ];
+}
+
 function slug(value) {
   return String(value)
     .normalize("NFD")
@@ -151,10 +213,11 @@ function imageFullMarkup(item, className = "media") {
 }
 
 function videoPosterMarkup(item, className = "video-poster") {
+  const isPending = item.provider === "pending-youtube";
   return `
-    <button class="${className}" data-load-video="${escapeHtml(item.id)}">
+    <button class="${className}${isPending ? " is-pending" : ""}" ${isPending ? "disabled aria-disabled=\"true\"" : `data-load-video="${escapeHtml(item.id)}"`}>
       ${imageMarkup(item, "video-poster-image")}
-      <span class="inline-play">Play</span>
+      <span class="inline-play">${isPending ? "YouTube pendiente" : "Play"}</span>
     </button>
   `;
 }
@@ -214,6 +277,7 @@ function projectFilterIds(project) {
 
 function projectSectionLabel(section) {
   if (section.slug === "edicion-generacion-ia") return "Edición + Generación";
+  if (section.slug === "generacion-imagen-video-ia") return "Imagen + Video IA";
   return section.kicker;
 }
 
@@ -230,8 +294,15 @@ function pieceCountLabel(project) {
   return project.pieces.length > 1 ? `${project.pieces.length} piezas` : "Pieza única";
 }
 
+function pieceStatusLabel(piece) {
+  if (piece.provider === "youtube") return "YouTube";
+  if (piece.provider === "pending-youtube") return "YouTube pendiente";
+  return `${escapeHtml(piece.extension)} · ${piece.sizeMb} MB`;
+}
+
 function filteredProjects() {
-  return allProjects().filter((project) => activeFilter === "all" || projectFilterIds(project).includes(activeFilter));
+  const projects = allProjects().filter((project) => activeFilter === "all" || projectFilterIds(project).includes(activeFilter));
+  return activeFilter === "all" ? homeOrderedProjects(projects) : projects;
 }
 
 function renderHome() {
@@ -245,7 +316,7 @@ function renderHome() {
 function renderHeroMontage() {
   const montage = $("#heroMontage");
   if (!montage) return;
-  const projects = allProjects().filter((project) => project.main.preview).slice(0, 9);
+  const projects = projectsByTitle(HOME_REEL_PROJECTS).filter((project) => project.main.preview);
   if (!projects.length) return;
   reelState.active = ((reelState.active % projects.length) + projects.length) % projects.length;
   montage.innerHTML = projects.map((project, index) => {
@@ -264,7 +335,7 @@ function renderHeroMontage() {
 }
 
 function moveReel(direction) {
-  const total = allProjects().filter((project) => project.main.preview).slice(0, 9).length;
+  const total = projectsByTitle(HOME_REEL_PROJECTS).filter((project) => project.main.preview).length;
   if (!total) return;
   reelState.active = (reelState.active + direction + total) % total;
   renderHeroMontage();
@@ -362,7 +433,7 @@ function videoProjectCard(project, section) {
       <div class="piece-video-wrap">${videoPosterMarkup(piece, "piece-video-poster")}</div>
       <div class="piece-copy">
         <strong>${escapeHtml(piece.title)}</strong>
-        <span>${piece.provider === "youtube" ? "YouTube" : `${escapeHtml(piece.extension)} · ${piece.sizeMb} MB`}</span>
+        <span>${pieceStatusLabel(piece)}</span>
       </div>
     </li>
   `).join("");
@@ -528,7 +599,7 @@ function drawerVideoMarkup(project, piece) {
     </div>
     <div class="drawer-piece-meta">
       <strong>${escapeHtml(piece.title)}</strong>
-      <span>${escapeHtml(pieceCountLabel(project))}</span>
+      <span>${piece.provider === "pending-youtube" ? "Video pendiente de link de YouTube" : escapeHtml(pieceCountLabel(project))}</span>
     </div>
   `;
 }
@@ -651,6 +722,7 @@ function bindInteractions() {
       const found = findPiece(videoButton.dataset.loadVideo);
       if (!found) return;
       const { piece } = found;
+      if (piece.provider === "pending-youtube") return;
       if (piece.provider === "youtube") {
         videoButton.replaceWith(youtubeEmbedMarkup(piece));
       } else {

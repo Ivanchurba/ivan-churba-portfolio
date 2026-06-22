@@ -3,48 +3,32 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Generacion IA | Ivan Churba</title>
-    <meta name="description" content="Acceso a proyectos de generacion de imagenes IA y generacion de video IA de Ivan Churba.">
+    <title>Imagen + Video IA | Ivan Churba</title>
+    <meta name="description" content="Proyectos de generacion de imagen y video IA de Ivan Churba.">
     <link rel="stylesheet" href="styles.css">
   </head>
-  <body data-page="home">
+  <body data-page="section" data-section="generacion-imagen-video-ia">
     <header class="site-header">
       <a class="brand" href="index.html"><span>Ivan Churba</span><small>Portfolio audiovisual</small></a>
       <nav class="top-nav" aria-label="Navegacion principal">
-        <a href="edicion-generacion-ia.html">Video + IA</a>
-        <a href="generacion-imagenes-ia.html">Imagen IA</a>
-        <a href="generacion-video-ia.html">Video IA</a>
+        <a href="edicion-generacion-ia.html">Edición + Generación</a>
+        <a href="generacion-ia.html" aria-current="page">Imagen + Video IA</a>
+        <a href="index.html#work">Producciones</a>
       </nav>
       <a class="mail-link" href="mailto:ivan.churba@gmail.com">Contacto</a>
     </header>
-    <main class="home-main split-page">
-      <section class="hero compact-hero">
-        <p class="eyebrow">Generacion IA</p>
-        <h1>Elegir categoria</h1>
-        <p class="hero-copy">La seccion anterior se dividio en imagenes IA y video IA para navegar los trabajos con mas claridad.</p>
-      </section>
-      <section class="home-sections bridge-sections">
-        <a class="section-card reveal is-visible" href="generacion-imagenes-ia.html" style="--accent:#9fd7ff">
-          <div class="section-thumb">
-            <img class="section-media" src="assets/previews/a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-1-moda-joven-56-vino-high-300dpi-copy.png" alt="Generacion de Imagenes IA" loading="lazy">
-          </div>
-          <div class="section-card-copy">
-            <p class="eyebrow">Imagen</p>
-            <h3>Generacion de Imagenes IA</h3>
-            <span>Galerias y storyboards</span>
-          </div>
-        </a>
-        <a class="section-card reveal is-visible" href="generacion-video-ia.html" style="--accent:#b8f06a">
-          <div class="section-thumb">
-            <img class="section-media" src="assets/posters/a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9.jpg" alt="Generacion de Video IA" loading="lazy">
-          </div>
-          <div class="section-card-copy">
-            <p class="eyebrow">Video</p>
-            <h3>Generacion de Video IA</h3>
-            <span>Piezas generadas y campanas</span>
-          </div>
-        </a>
+    <main class="section-page">
+      <a class="back-link" href="index.html">Volver al inicio</a>
+      <section class="section-hero" id="sectionHero"></section>
+      <section class="projects-wrap">
+        <div class="projects-toolbar">
+          <p id="projectCount"></p>
+          <span>Imagen, video y piezas generadas agrupadas en una sola categoría.</span>
+        </div>
+        <div class="projects-grid" id="projectsGrid"></div>
       </section>
     </main>
+    <script src="data/site-data.js?v=20260622-new-projects"></script>
+    <script src="app.js?v=20260622-new-projects"></script>
   </body>
 </html>
