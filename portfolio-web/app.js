@@ -8,6 +8,7 @@ let drawerState = { project: null, piece: null, galleryIndex: 0, galleryMode: "g
 let activeFilter = "all";
 let showAllProjects = false;
 let reelState = { active: 0, paused: false, timer: null };
+let reelPointerStart = null;
 
 const FILTERS = [
   { id: "all", label: "Todos" },
@@ -632,6 +633,25 @@ function drawerGalleryMarkup() {
 }
 
 function bindInteractions() {
+  const heroMontage = $("#heroMontage")?.closest(".hero-montage");
+  if (heroMontage) {
+    heroMontage.addEventListener("pointerdown", (event) => {
+      reelPointerStart = { x: event.clientX, y: event.clientY };
+    });
+    heroMontage.addEventListener("pointerup", (event) => {
+      if (!reelPointerStart) return;
+      const deltaX = event.clientX - reelPointerStart.x;
+      const deltaY = event.clientY - reelPointerStart.y;
+      reelPointerStart = null;
+      if (Math.abs(deltaX) < 42 || Math.abs(deltaX) < Math.abs(deltaY)) return;
+      reelState.paused = true;
+      moveReel(deltaX < 0 ? 1 : -1);
+    });
+    heroMontage.addEventListener("pointercancel", () => {
+      reelPointerStart = null;
+    });
+  }
+
   document.addEventListener("click", (event) => {
     const reelAction = event.target.closest("[data-reel-action]");
     if (reelAction) {
@@ -795,6 +815,18 @@ function bindInteractions() {
   });
 
   document.addEventListener("keydown", (event) => {
+    if ($("#heroMontage") && !$("#projectDrawer")?.classList.contains("is-open")) {
+      if (event.key === "ArrowLeft") {
+        reelState.paused = true;
+        moveReel(-1);
+        return;
+      }
+      if (event.key === "ArrowRight") {
+        reelState.paused = true;
+        moveReel(1);
+        return;
+      }
+    }
     if (event.key === "Escape" && $("#projectDrawer")?.classList.contains("is-open")) {
       closeProjectDrawer();
       return;
