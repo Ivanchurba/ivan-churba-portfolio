@@ -24,3 +24,16 @@ portfolio-web/assets/previews/a-generacion-storyboard-prosegur-*
 portfolio-web/assets/previews/coppel-test/
 portfolio-web/assets/previews/coppel-ql/
 portfolio-web/assets/thumbs/
+
+# Same local-only assets after publishing site from repository root
+assets/media/optimized/01-edicion-video-generacion-ia/
+assets/media/optimized/03-generacion-video-ia/
+assets/media/optimized/04-edicion-video/
+assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/jpg compress/
+assets/media/images/storyboard-prosegur/
+assets/media/para-subir/
+assets/previews/a-generacion-coppel-mexico-*
+assets/previews/a-generacion-storyboard-prosegur-*
+assets/previews/coppel-test/
+assets/previews/coppel-ql/
+assets/thumbs/

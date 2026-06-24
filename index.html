@@ -3,11 +3,78 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="refresh" content="0; url=portfolio-web/">
-    <title>Ivan Churba | Portfolio</title>
-    <link rel="canonical" href="portfolio-web/">
+    <title>Ivan Churba | Portfolio Audiovisual</title>
+    <meta name="description" content="Portfolio audiovisual de Ivan Churba: edición, generación visual, producción, postproducción, sonido y contenido para marcas.">
+    <link rel="stylesheet" href="styles.css?v=20260622-responsive-polish">
   </head>
-  <body>
-    <p><a href="portfolio-web/">Abrir portfolio</a></p>
+  <body data-page="home">
+    <header class="site-header home-header">
+      <a class="brand" href="index.html" aria-label="Inicio">
+        <span>Ivan Churba</span>
+        <small>Portfolio audiovisual</small>
+      </a>
+      <nav class="top-nav" aria-label="Navegacion principal">
+        <a href="#work">Proyectos</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+      <a class="mail-link" href="mailto:ivan.churba@gmail.com">ivan.churba@gmail.com</a>
+    </header>
+
+    <main>
+      <section class="home-hero">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Portfolio audiovisual</p>
+          <h1>Ivan Churba</h1>
+          <p class="hero-lead">Edición, generación visual, producción, postproducción y sonido para piezas de marca, campañas y contenidos digitales.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#work">Ver proyectos</a>
+            <a class="button secondary" href="mailto:ivan.churba@gmail.com">Contacto</a>
+          </div>
+        </div>
+
+        <div class="hero-montage reveal" aria-label="Reel interactivo de proyectos">
+          <div class="montage-track" id="heroMontage"></div>
+          <div class="montage-caption">
+            <span>Reel interactivo</span>
+            <strong>Elegí una pieza</strong>
+          </div>
+          <div class="reel-controls" aria-label="Controles de reel">
+            <button class="reel-arrow reel-arrow-prev" type="button" data-reel-action="prev" aria-label="Proyecto anterior">Anterior</button>
+            <button type="button" data-reel-action="toggle">Pausar</button>
+            <button class="reel-arrow reel-arrow-next" type="button" data-reel-action="next" aria-label="Proyecto siguiente">Siguiente</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="work-section" id="work">
+        <div class="work-heading reveal">
+          <div>
+            <p class="eyebrow">Work</p>
+            <h2>Proyectos seleccionados</h2>
+          </div>
+          <p>Una selección de trabajos de edición, generación, imagen, postproducción y piezas audiovisuales para marcas.</p>
+        </div>
+
+        <div class="work-filters reveal" id="workFilters" aria-label="Filtros de proyectos"></div>
+        <div class="work-grid" id="workGrid"></div>
+      </section>
+
+      <section class="contact-section reveal" id="contacto">
+        <p class="eyebrow">Contacto</p>
+        <h2>Edición, producción y contenido audiovisual.</h2>
+        <a href="mailto:ivan.churba@gmail.com">ivan.churba@gmail.com</a>
+      </section>
+    </main>
+
+    <aside class="project-drawer" id="projectDrawer" aria-hidden="true">
+      <button class="drawer-scrim" data-close-project aria-label="Cerrar detalle"></button>
+      <section class="drawer-panel" role="dialog" aria-modal="true" aria-labelledby="drawerTitle">
+        <button class="drawer-close" data-close-project aria-label="Cerrar">Cerrar</button>
+        <div class="drawer-body" id="drawerBody"></div>
+      </section>
+    </aside>
+
+    <script src="data/site-data.js?v=20260622-responsive-polish"></script>
+    <script src="app.js?v=20260622-responsive-polish"></script>
   </body>
 </html>
