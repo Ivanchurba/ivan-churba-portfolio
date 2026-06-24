@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Ivan Churba | Portfolio Audiovisual</title>
+    <title>Ivan Churba | Portfolio Audiovisual V2</title>
     <meta name="description" content="Portfolio audiovisual de Ivan Churba: edición, generación visual, producción, postproducción, sonido y contenido para marcas.">
-    <link rel="stylesheet" href="styles.css?v=20260622-responsive-polish">
+    <meta name="robots" content="noindex, nofollow">
+    <link rel="stylesheet" href="styles.css?v=20260624-v2-published-01">
   </head>
   <body data-page="home">
     <header class="site-header home-header">
@@ -33,15 +34,72 @@
         </div>
 
         <div class="hero-montage reveal" aria-label="Reel interactivo de proyectos">
-          <div class="montage-track" id="heroMontage"></div>
+          <div class="montage-track" id="heroMontage">
+            <div class="montage-viewport" aria-label="Proyectos destacados">
+              <div class="montage-strip">
+                <div class="montage-set">
+                  <button class="montage-item" data-open-project="generacion-imagen-video-ia-bna-mundial">
+                    <img class="montage-image" src="assets/posters/a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9.jpg" alt="BNA Mundial" loading="eager">
+                    <strong>BNA Mundial</strong>
+                  </button>
+                  <button class="montage-item" data-open-project="edicion-generacion-ia-cofler-cups">
+                    <img class="montage-image" src="assets/posters/a-generacion-y-edicion-cofler-cups-cofler-cups-final-musica-1.jpg" alt="Cofler Cups" loading="eager">
+                    <strong>Cofler Cups</strong>
+                  </button>
+                  <button class="montage-item" data-open-project="generacion-imagen-video-ia-colecciones-la-nacion">
+                    <img class="montage-image" src="assets/posters/youtube/youtube-colecciones-la-nacion-cerveza.jpg" alt="Colecciones La Nación" loading="eager">
+                    <strong>Colecciones La Nación</strong>
+                  </button>
+                  <button class="montage-item" data-open-project="generacion-imagen-video-ia-coppel-mexico">
+                    <img class="montage-image" src="assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/1-moda-joven-56-vino.webp" alt="Coppel México" loading="eager">
+                    <strong>Coppel México</strong>
+                  </button>
+                  <button class="montage-item" data-open-project="edicion-generacion-ia-alfajor-goat">
+                    <img class="montage-image" src="assets/posters/a-generacion-y-edicion-alfajor-goat-10-segundos-goat-10-seg-16-9.jpg" alt="Alfajor GOAT" loading="eager">
+                    <strong>Alfajor GOAT</strong>
+                  </button>
+                  <button class="montage-item" data-open-project="producciones-unicef">
+                    <img class="montage-image" src="assets/posters/new-projects/unicef-tiago-bhavi-1.jpg" alt="UNICEF" loading="eager">
+                    <strong>UNICEF</strong>
+                  </button>
+                </div>
+                <div class="montage-set" aria-hidden="true">
+                  <button class="montage-item" data-open-project="generacion-imagen-video-ia-bna-mundial">
+                    <img class="montage-image" src="assets/posters/a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9.jpg" alt="BNA Mundial" loading="eager">
+                    <strong>BNA Mundial</strong>
+                  </button>
+                  <button class="montage-item" data-open-project="edicion-generacion-ia-cofler-cups">
+                    <img class="montage-image" src="assets/posters/a-generacion-y-edicion-cofler-cups-cofler-cups-final-musica-1.jpg" alt="Cofler Cups" loading="eager">
+                    <strong>Cofler Cups</strong>
+                  </button>
+                  <button class="montage-item" data-open-project="generacion-imagen-video-ia-colecciones-la-nacion">
+                    <img class="montage-image" src="assets/posters/youtube/youtube-colecciones-la-nacion-cerveza.jpg" alt="Colecciones La Nación" loading="eager">
+                    <strong>Colecciones La Nación</strong>
+                  </button>
+                  <button class="montage-item" data-open-project="generacion-imagen-video-ia-coppel-mexico">
+                    <img class="montage-image" src="assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/1-moda-joven-56-vino.webp" alt="Coppel México" loading="eager">
+                    <strong>Coppel México</strong>
+                  </button>
+                  <button class="montage-item" data-open-project="edicion-generacion-ia-alfajor-goat">
+                    <img class="montage-image" src="assets/posters/a-generacion-y-edicion-alfajor-goat-10-segundos-goat-10-seg-16-9.jpg" alt="Alfajor GOAT" loading="eager">
+                    <strong>Alfajor GOAT</strong>
+                  </button>
+                  <button class="montage-item" data-open-project="producciones-unicef">
+                    <img class="montage-image" src="assets/posters/new-projects/unicef-tiago-bhavi-1.jpg" alt="UNICEF" loading="eager">
+                    <strong>UNICEF</strong>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
           <div class="montage-caption">
             <span>Reel interactivo</span>
             <strong>Elegí una pieza</strong>
           </div>
-          <div class="reel-controls" aria-label="Controles de reel">
-            <button class="reel-arrow reel-arrow-prev" type="button" data-reel-action="prev" aria-label="Proyecto anterior">Anterior</button>
-            <button type="button" data-reel-action="toggle">Pausar</button>
-            <button class="reel-arrow reel-arrow-next" type="button" data-reel-action="next" aria-label="Proyecto siguiente">Siguiente</button>
+          <div class="reel-control-bar" aria-label="Controles de reel">
+            <button class="reel-control reel-control-icon" type="button" data-reel-action="prev" aria-label="Proyecto anterior">‹</button>
+            <button class="reel-control reel-control-toggle" type="button" data-reel-action="toggle">Pausar</button>
+            <button class="reel-control reel-control-icon" type="button" data-reel-action="next" aria-label="Proyecto siguiente">›</button>
           </div>
         </div>
       </section>
@@ -74,7 +132,7 @@
       </section>
     </aside>
 
-    <script src="data/site-data.js?v=20260622-responsive-polish"></script>
-    <script src="app.js?v=20260622-responsive-polish"></script>
+    <script src="data/site-data.js?v=20260624-v2-published-01"></script>
+    <script src="app.js?v=20260624-v2-published-01"></script>
   </body>
 </html>

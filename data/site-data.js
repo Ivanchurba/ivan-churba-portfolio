@@ -723,7 +723,7 @@ window.PORTFOLIO_DATA = {
           "title": "Coppel Mexico",
           "description": "Galeria de imagenes finales para campana grafica. Se excluyen masters TIF pesados.",
           "kind": "gallery",
-          "galleryHref": "coppel-mexico.html",
+          "galleryHref": "../coppel-mexico.html",
           "mainId": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-1-moda-joven-56-vino-high-300dpi-copy",
           "main": {
             "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-1-moda-joven-56-vino-high-300dpi-copy",
@@ -1121,7 +1121,7 @@ window.PORTFOLIO_DATA = {
           "title": "Storyboard Prosegur",
           "description": "Secuencia visual completa para storyboard.",
           "kind": "gallery",
-          "galleryHref": "storyboard-prosegur.html",
+          "galleryHref": "../storyboard-prosegur.html",
           "mainId": "a-generacion-storyboard-prosegur-1-llegada",
           "main": {
             "id": "a-generacion-storyboard-prosegur-1-llegada",
