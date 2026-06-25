@@ -22,8 +22,8 @@ const FILTERS = [
 const HOME_GRID_PROJECTS = [
   "BNA Mundial",
   "Cofler Cups",
-  "Colecciones La Nacion",
-  "Coppel Mexico",
+  "Colecciones La Nación",
+  "Coppel México",
   "Alfajor GOAT",
   "UNICEF",
 ];
@@ -31,8 +31,8 @@ const HOME_GRID_PROJECTS = [
 const HOME_REEL_PROJECTS = [
   "BNA Mundial",
   "Cofler Cups",
-  "Colecciones La Nacion",
-  "Coppel Mexico",
+  "Colecciones La Nación",
+  "Coppel México",
   "Alfajor GOAT",
   "UNICEF",
   "Poxipol",
@@ -42,100 +42,100 @@ const HOME_REEL_PROJECTS = [
 
 const PROJECT_DETAILS = {
   "Alfajor GOAT": {
-    role: "Edición, generación visual y postproducción",
-    brief: "Pieza de producto pensada como impacto rápido: ritmo directo, construcción visual de marca y cierre claro para campaña.",
+    role: "Edición, generación de imágenes y video IA",
+    brief: "Pieza audiovisual para comunicar el lanzamiento de Alfajor GOAT, nuevo producto de Arcor, con foco en presentación de producto, ritmo publicitario e impacto visual.",
   },
   "Animatic Santa Fe": {
-    role: "Animatic, edición y desarrollo narrativo",
-    brief: "Animatics de guion para visualizar tono, timing y estructura antes de avanzar a una pieza final.",
+    role: "Edición, generación de imágenes y video IA",
+    brief: "Animatic desarrollado como parte de un proceso de preproducción. Funciona como una maqueta estructural y visual para presentar una idea de campaña, explorar tono, ritmo y narrativa antes de avanzar hacia una pieza final.",
   },
   "Arcor Halloween": {
-    role: "Edición, generación y adaptación de piezas",
-    brief: "Contenido de temporada con foco en producto, clima visual y variantes de comunicación para campaña.",
+    role: "Edición, generación de imágenes y video IA",
+    brief: "Piezas desarrolladas para la campaña de Halloween de Arcor, con distintas comunicaciones asociadas a productos y submarcas de la compañía.",
   },
   "Arcor Navidad": {
-    role: "Edición, generación visual y sistema de adaptaciones",
-    brief: "Sistema de piezas navideñas para distintas marcas, manteniendo coherencia visual entre productos y formatos.",
+    role: "Edición, generación de imágenes y video IA",
+    brief: "Piezas desarrolladas para la campaña de Navidad de Arcor, con distintas comunicaciones asociadas a productos y submarcas de la compañía.",
   },
   "Arcor Pascuas": {
-    role: "Edición, generación y postproducción",
-    brief: "Piezas para campaña de Pascuas con foco en producto, energía visual y versiones para distintas necesidades de comunicación.",
+    role: "Edición, generación de imágenes y video IA",
+    brief: "Piezas desarrolladas para la campaña de Pascuas de Arcor, con distintas comunicaciones asociadas a productos y submarcas de la compañía.",
   },
   "Cofler Cups": {
-    role: "Edición, generación visual y terminación",
-    brief: "Contenido de producto con tratamiento dinámico y acabado visual orientado a performance digital.",
+    role: "Edición, generación de imágenes y video IA",
+    brief: "Proyecto de lanzamiento para Cofler Cups, enfocado en presentar el nuevo producto con una pieza dinámica, visualmente atractiva y alineada a la comunicación de marca.",
   },
   "Animatic Imperial": {
-    role: "Animatic, edición y armado audiovisual",
-    brief: "Pieza de presentacion para bajar una idea a ritmo, imagen y estructura audiovisual.",
+    role: "Edición, generación de imágenes y video IA",
+    brief: "Animatic desarrollado como parte de un proceso de preproducción. Funciona como una maqueta estructural y visual para presentar una idea de campaña, explorar tono, ritmo y narrativa antes de avanzar hacia una pieza final.",
   },
   "Animatic Seguros": {
-    role: "Animatic, edición narrativa y sonido",
-    brief: "Animatic construido para ordenar relato, tono y progresión de una pieza de comunicación.",
+    role: "Edición, generación de imágenes y video IA",
+    brief: "Animatic desarrollado como parte de un proceso de preproducción. Funciona como una maqueta estructural y visual para presentar una idea de campaña, explorar tono, ritmo y narrativa antes de avanzar hacia una pieza final.",
   },
   "Semana de la Dulzura": {
-    role: "Edición, contenido audiovisual y postproducción",
-    brief: "Pieza de campaña con lenguaje simple, visual directo y foco en recordación de marca.",
+    role: "Edición",
+    brief: "Comunicación desarrollada para Arcor en el marco de la Semana de la Dulzura. Fue una de las primeras piezas del equipo trabajadas con herramientas de IA dentro del proceso audiovisual.",
   },
   "Pizza Para Ocho": {
-    role: "Edición, generación visual y composición",
-    brief: "Contenido audiovisual donde la edición y la generación se integran para construir una pieza de tono propio.",
+    role: "Producción integral grupal",
+    brief: "Trabajo audiovisual realizado en el marco de la materia Iluminación y Cámara II. Fue una producción grupal desarrollada junto a tres compañeros, abordando el proceso completo de realización.",
   },
-  "Coppel Mexico": {
-    role: "Generación de imagen, dirección visual y selección final",
-    brief: "Galería de imágenes finales para campaña gráfica, curada para mostrar variedad, consistencia y potencial visual.",
+  "Coppel México": {
+    role: "Generación de imágenes IA",
+    brief: "Serie de imágenes generadas para tiendas físicas de Coppel México, desarrolladas como piezas visuales de campaña y comunicación en punto de venta.",
   },
   "Storyboard Prosegur": {
-    role: "Storyboard, generación visual y orden narrativo",
-    brief: "Secuencia visual organizada para contar la acción plano a plano y facilitar la lectura de la pieza.",
+    role: "Generación de imágenes IA y armado de storyboard",
+    brief: "Storyboard desarrollado como parte de un proceso de preproducción. Funciona como una maqueta visual para ordenar la secuencia narrativa, los planos y el tono general antes de avanzar hacia una pieza final.",
   },
   "BNA Mundial": {
-    role: "Generación de video, edición y adaptación",
-    brief: "Promos y PNTs para verticales de comunicación del banco, con foco en claridad, tono de campaña y formato.",
+    role: "Generación de imágenes y video IA",
+    brief: "Sistema de piezas publicitarias desarrollado para Banco Nación en el marco del Mundial 2026, con comunicaciones adaptadas para televisión y redes sociales.",
   },
-  "Colecciones La Nacion": {
-    role: "Generación de video, edición y sistema de piezas",
-    brief: "Serie audiovisual para colecciones culturales, trabajada como sistema de piezas con identidad compartida.",
+  "Colecciones La Nación": {
+    role: "Generación de imágenes y video IA",
+    brief: "Sistema de piezas audiovisuales para Colecciones La Nación, con videos individuales desarrollados para distintas entregas de la sección.",
   },
   "Hamlet": {
-    role: "Generación de video, edición y variantes creativas",
-    brief: "Serie de versiones para producto, explorando tono, movimiento y resolución visual para entorno digital.",
+    role: "Generación de imágenes y video IA",
+    brief: "Pieza audiovisual desarrollada para Chocolates Hamlet, con foco en producto, presencia visual y comunicación de marca.",
   },
-  "Arcor Cofler Obleas Max": {
-    role: "Generación de video y postproducción",
-    brief: "Pieza de producto con foco en presencia visual, textura y lectura rápida de marca.",
+  "Cofler Obleas Max": {
+    role: "Generación de imágenes y video IA",
+    brief: "Spot para redes desarrollado para comunicar el lanzamiento de Cofler Obleas Max, nuevo producto de la línea Cofler.",
   },
   "Cofler Dulce de Leche": {
-    role: "Generación de video y edición",
-    brief: "Contenido de producto orientado a construir apetito visual y una comunicación directa.",
+    role: "Generación de imágenes y video IA",
+    brief: "Spot para redes desarrollado para comunicar el lanzamiento de Cofler Dulce de Leche, nuevo producto de la línea Cofler.",
   },
   "T-Mobile / Bad Bunny": {
-    role: "Generación visual, edición y pieza digital",
-    brief: "Pieza para entorno digital con lenguaje de marca, ritmo visual y foco en impacto inmediato.",
+    role: "Generación de imágenes y video IA",
+    brief: "Spot desarrollado para T-Mobile Puerto Rico en el marco de una gira de Bad Bunny, con una propuesta visual orientada a comunicación digital de marca.",
   },
   "Hogareñas": {
-    role: "Generación visual, edición y desarrollo audiovisual",
-    brief: "Pieza de producto trabajada desde generación visual, composición y ritmo para comunicación digital.",
+    role: "Generación de imágenes y video IA",
+    brief: "Spot publicitario realizado para Arcor Bulgaria, centrado en la presentación de las galletitas Hogareñas Cereal Mix.",
   },
   "Zurich Hogar Gamer": {
-    role: "Generación visual, edición y desarrollo audiovisual",
-    brief: "Contenido para campaña de Zurich Hogar, con tratamiento visual orientado a una lectura rápida y clara.",
+    role: "Generación de imágenes y video IA",
+    brief: "Spot publicitario desarrollado para Zurich Seguros, con una propuesta visual centrada en el universo de hogar y gaming.",
   },
   "Toddler Cambias": {
-    role: "Generación visual, edición y desarrollo audiovisual",
-    brief: "Pieza audiovisual generada para marca, con foco en imagen, timing y resolución visual.",
+    role: "Generación de imágenes y video IA",
+    brief: "Pieza desarrollada para la campaña comercial de lanzamiento de Toddler, nueva marca de productos para bebé.",
   },
   "Cofler Gold": {
-    role: "Generación visual, edición y desarrollo audiovisual",
-    brief: "Contenido de producto centrado en presencia de marca, textura visual y acabado para entorno digital.",
+    role: "Generación de imágenes y video IA",
+    brief: "Pieza desarrollada para el lanzamiento de Cofler Gold, con foco en presentación visual, producto y comunicación de marca.",
   },
   "Poxipol": {
-    role: "Generación visual, edición y desarrollo audiovisual",
-    brief: "Serie de versiones curadas por locación para mostrar distintas resoluciones visuales de campaña.",
+    role: "Generación de imágenes y video IA",
+    brief: "Piezas desarrolladas para Poxipol, con distintas versiones visuales adaptadas a situaciones y locaciones de campaña.",
   },
   "UNICEF": {
-    role: "Asistencia de producción y sonido directo",
-    brief: "Producciones filmadas en rodaje real, con asistencia integral en set y registro de sonido directo.",
+    role: "Asistencia y sonido directo",
+    brief: "Producciones audiovisuales realizadas para UNICEF en distintos formatos y campañas, incluyendo piezas institucionales, entrevistas y contenidos digitales.",
   },
 };
 
@@ -194,6 +194,13 @@ function slug(value) {
     .toLowerCase()
     .replace(/[^a-z0-9]+/g, "-")
     .replace(/^-|-$/g, "");
+}
+
+function normalizeText(value) {
+  return String(value)
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase();
 }
 
 function projectId(project) {
@@ -281,6 +288,50 @@ function projectSectionLabel(section) {
 
 function projectRole(project) {
   return PROJECT_DETAILS[project.title]?.role || "Contenido audiovisual, edición y postproducción";
+}
+
+function roleItems(project) {
+  const role = normalizeText(projectRole(project));
+  const items = [];
+
+  if (role.includes("edicion")) items.push("Edición de video");
+  if (role.includes("generacion de imagen") || role.includes("generacion visual")) items.push("Generación de imagen IA");
+  if (role.includes("video ia") || role.includes("generacion de video")) items.push("Generación de video IA");
+  if (role.includes("asistencia")) items.push("Asistencia");
+  if (role.includes("sonido directo")) items.push("Sonido directo");
+  if (role.includes("produccion integral")) items.push("Producción integral");
+  if (role.includes("storyboard")) items.push("Armado de storyboard");
+  if (!items.length) items.push(projectRole(project));
+
+  return [...new Set(items)];
+}
+
+function roleIcon(role) {
+  const normalized = normalizeText(role);
+  if (normalized.includes("edicion")) return "✂";
+  if (normalized.includes("imagen")) return "◐";
+  if (normalized.includes("video")) return "▶";
+  if (normalized.includes("sonido")) return "♪";
+  if (normalized.includes("asistencia")) return "+";
+  if (normalized.includes("produccion")) return "●";
+  if (normalized.includes("storyboard")) return "▦";
+  return "•";
+}
+
+function projectRoleMarkup(project) {
+  return `
+    <div class="drawer-role">
+      <span class="drawer-role-label">Participación</span>
+      <div class="drawer-role-list">
+        ${roleItems(project).map((role) => `
+          <span class="drawer-role-chip">
+            <span class="drawer-role-icon" aria-hidden="true">${escapeHtml(roleIcon(role))}</span>
+            <span>${escapeHtml(role)}</span>
+          </span>
+        `).join("")}
+      </div>
+    </div>
+  `;
 }
 
 function projectBrief(project) {
@@ -389,9 +440,12 @@ function normalizeHeroSliderScroll() {
   const viewport = $(".montage-viewport");
   if (!viewport || !reelState.loopWidth) return;
   const loopWidth = reelState.loopWidth;
-  if (viewport.scrollLeft >= loopWidth * 2) {
+  const upperThreshold = loopWidth * 1.5;
+  const lowerThreshold = loopWidth * 0.5;
+
+  if (viewport.scrollLeft >= upperThreshold) {
     viewport.scrollLeft -= loopWidth;
-  } else if (viewport.scrollLeft <= 1) {
+  } else if (viewport.scrollLeft <= lowerThreshold) {
     viewport.scrollLeft += loopWidth;
   }
 }
@@ -704,10 +758,7 @@ function renderProjectDrawer() {
       <div class="drawer-heading">
         <p class="eyebrow">${escapeHtml(projectSectionLabel(project.section))} · ${escapeHtml(projectType(project))}</p>
         <h2 id="drawerTitle">${escapeHtml(project.title)}</h2>
-        <div class="drawer-role">
-          <span>Participación</span>
-          <strong>${escapeHtml(projectRole(project))}</strong>
-        </div>
+        ${projectRoleMarkup(project)}
         <p>${escapeHtml(projectBrief(project))}</p>
       </div>
       <div class="drawer-media" id="drawerMedia">

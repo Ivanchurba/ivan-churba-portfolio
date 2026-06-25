@@ -15,13 +15,13 @@ window.PORTFOLIO_DATA = {
       "projects": [
         {
           "title": "Alfajor GOAT",
-          "description": "Pieza principal horizontal para campana de producto.",
+          "description": "Pieza audiovisual para comunicar el lanzamiento de Alfajor GOAT, nuevo producto de Arcor, con foco en presentación de producto, ritmo publicitario e impacto visual.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "a-generacion-y-edicion-alfajor-goat-10-segundos-goat-10-seg-16-9",
           "main": {
             "id": "a-generacion-y-edicion-alfajor-goat-10-segundos-goat-10-seg-16-9",
-            "title": "Version principal",
+            "title": "Pieza principal",
             "type": "video",
             "preview": "assets/posters/a-generacion-y-edicion-alfajor-goat-10-segundos-goat-10-seg-16-9.jpg",
             "original": "https://youtu.be/6-AFnC29qls",
@@ -36,7 +36,7 @@ window.PORTFOLIO_DATA = {
           "pieces": [
             {
               "id": "a-generacion-y-edicion-alfajor-goat-10-segundos-goat-10-seg-16-9",
-              "title": "Version principal",
+              "title": "Pieza principal",
               "type": "video",
               "preview": "assets/posters/a-generacion-y-edicion-alfajor-goat-10-segundos-goat-10-seg-16-9.jpg",
               "original": "https://youtu.be/6-AFnC29qls",
@@ -52,13 +52,13 @@ window.PORTFOLIO_DATA = {
         },
         {
           "title": "Animatic Santa Fe",
-          "description": "Animatics de guion para desarrollo de pieza.",
+          "description": "Animatic desarrollado como parte de un proceso de preproducción. Funciona como una maqueta estructural y visual para presentar una idea de campaña, explorar tono, ritmo y narrativa antes de avanzar hacia una pieza final.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "a-generacion-y-edicion-animatic-santa-fe-animatic-guio-n-1",
           "main": {
             "id": "a-generacion-y-edicion-animatic-santa-fe-animatic-guio-n-1",
-            "title": "Guion 1",
+            "title": "Versión 1",
             "type": "video",
             "preview": "assets/posters/a-generacion-y-edicion-animatic-santa-fe-animatic-guio-n-1.jpg",
             "original": "https://youtu.be/fg1FPQXDeTU",
@@ -73,7 +73,7 @@ window.PORTFOLIO_DATA = {
           "pieces": [
             {
               "id": "a-generacion-y-edicion-animatic-santa-fe-animatic-guio-n-1",
-              "title": "Guion 1",
+              "title": "Versión 1",
               "type": "video",
               "preview": "assets/posters/a-generacion-y-edicion-animatic-santa-fe-animatic-guio-n-1.jpg",
               "original": "https://youtu.be/fg1FPQXDeTU",
@@ -87,7 +87,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-y-edicion-animatic-santa-fe-animatic-guio-n-2",
-              "title": "Guion 2",
+              "title": "Versión 2",
               "type": "video",
               "preview": "assets/posters/a-generacion-y-edicion-animatic-santa-fe-animatic-guio-n-2.jpg",
               "original": "https://youtu.be/euzPqKLAH3I",
@@ -103,7 +103,7 @@ window.PORTFOLIO_DATA = {
         },
         {
           "title": "Arcor Halloween",
-          "description": "Piezas de temporada con foco en producto y tono de campaña.",
+          "description": "Piezas desarrolladas para la campaña de Halloween de Arcor, con distintas comunicaciones asociadas a productos y submarcas de la compañía.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "a-generacion-y-edicion-arcor-halloween-candy-bar-extreme",
@@ -154,13 +154,13 @@ window.PORTFOLIO_DATA = {
         },
         {
           "title": "Arcor Navidad",
-          "description": "Sistema de piezas navidenas para distintas marcas y productos.",
+          "description": "Piezas desarrolladas para la campaña de Navidad de Arcor, con distintas comunicaciones asociadas a productos y submarcas de la compañía.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "a-generacion-y-edicion-arcor-navidad-aguila-postres-ok",
           "main": {
             "id": "a-generacion-y-edicion-arcor-navidad-aguila-postres-ok",
-            "title": "Aguila Postres",
+            "title": "Águila Postres",
             "type": "video",
             "preview": "assets/posters/a-generacion-y-edicion-arcor-navidad-aguila-postres-ok.jpg",
             "original": "https://youtu.be/kNQIF58SiNM",
@@ -175,7 +175,7 @@ window.PORTFOLIO_DATA = {
           "pieces": [
             {
               "id": "a-generacion-y-edicion-arcor-navidad-aguila-postres-ok",
-              "title": "Aguila Postres",
+              "title": "Águila Postres",
               "type": "video",
               "preview": "assets/posters/a-generacion-y-edicion-arcor-navidad-aguila-postres-ok.jpg",
               "original": "https://youtu.be/kNQIF58SiNM",
@@ -247,7 +247,7 @@ window.PORTFOLIO_DATA = {
         },
         {
           "title": "Arcor Pascuas",
-          "description": "Piezas principales y bumpers para campaña de Pascuas.",
+          "description": "Piezas desarrolladas para la campaña de Pascuas de Arcor, con distintas comunicaciones asociadas a productos y submarcas de la compañía.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "a-generacion-y-edicion-arcor-pascuas-bob-final-ok",
@@ -268,7 +268,7 @@ window.PORTFOLIO_DATA = {
           "pieces": [
             {
               "id": "a-generacion-y-edicion-arcor-pascuas-aguila-ok",
-              "title": "Aguila",
+              "title": "Águila",
               "type": "video",
               "preview": "assets/posters/a-generacion-y-edicion-arcor-pascuas-aguila-ok.jpg",
               "original": "https://youtu.be/Qo0sQn2EB5U",
@@ -310,7 +310,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-y-edicion-arcor-pascuas-rocklets-cohete-vert-ok",
-              "title": "Rocklets Cohete Vert",
+              "title": "Rocklets Cohete",
               "type": "video",
               "preview": "assets/posters/a-generacion-y-edicion-arcor-pascuas-rocklets-cohete-vert-ok.jpg",
               "original": "https://youtu.be/T3AnpPDwf0g",
@@ -326,13 +326,13 @@ window.PORTFOLIO_DATA = {
         },
         {
           "title": "Cofler Cups",
-          "description": "Contenido de producto con variantes de pieza final.",
+          "description": "Proyecto de lanzamiento para Cofler Cups, enfocado en presentar el nuevo producto con una pieza dinámica, visualmente atractiva y alineada a la comunicación de marca.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "a-generacion-y-edicion-cofler-cups-cofler-cups-final-musica-1",
           "main": {
             "id": "a-generacion-y-edicion-cofler-cups-cofler-cups-final-musica-1",
-            "title": "Cofler Cups",
+            "title": "Pieza principal",
             "type": "video",
             "preview": "assets/posters/a-generacion-y-edicion-cofler-cups-cofler-cups-final-musica-1.jpg",
             "original": "https://youtu.be/AC-zYU-7IyY",
@@ -347,7 +347,7 @@ window.PORTFOLIO_DATA = {
           "pieces": [
             {
               "id": "a-generacion-y-edicion-cofler-cups-cofler-cups-final-musica-1",
-              "title": "Cofler Cups",
+              "title": "Pieza principal",
               "type": "video",
               "preview": "assets/posters/a-generacion-y-edicion-cofler-cups-cofler-cups-final-musica-1.jpg",
               "original": "https://youtu.be/AC-zYU-7IyY",
@@ -363,13 +363,13 @@ window.PORTFOLIO_DATA = {
         },
         {
           "title": "Animatic Imperial",
-          "description": "Animatic audiovisual para presentacion de idea.",
+          "description": "Animatic desarrollado como parte de un proceso de preproducción. Funciona como una maqueta estructural y visual para presentar una idea de campaña, explorar tono, ritmo y narrativa antes de avanzar hacia una pieza final.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "a-generacion-y-edicion-animatic-imperial",
           "main": {
             "id": "a-generacion-y-edicion-animatic-imperial",
-            "title": "ANIMATIC Imperial",
+            "title": "Pieza principal",
             "type": "video",
             "preview": "assets/posters/a-generacion-y-edicion-animatic-imperial.jpg",
             "original": "https://youtu.be/5QK5FIsngxk",
@@ -384,7 +384,7 @@ window.PORTFOLIO_DATA = {
           "pieces": [
             {
               "id": "a-generacion-y-edicion-animatic-imperial",
-              "title": "ANIMATIC Imperial",
+              "title": "Pieza principal",
               "type": "video",
               "preview": "assets/posters/a-generacion-y-edicion-animatic-imperial.jpg",
               "original": "https://youtu.be/5QK5FIsngxk",
@@ -400,13 +400,13 @@ window.PORTFOLIO_DATA = {
         },
         {
           "title": "Animatic Seguros",
-          "description": "Animatic narrativo para pieza de seguros.",
+          "description": "Animatic desarrollado como parte de un proceso de preproducción. Funciona como una maqueta estructural y visual para presentar una idea de campaña, explorar tono, ritmo y narrativa antes de avanzar hacia una pieza final.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "a-generacion-y-edicion-animatic-seguros",
           "main": {
             "id": "a-generacion-y-edicion-animatic-seguros",
-            "title": "ANIMATIC Seguros",
+            "title": "Pieza principal",
             "type": "video",
             "preview": "assets/posters/a-generacion-y-edicion-animatic-seguros.jpg",
             "original": "https://youtu.be/hAiqBGWj_7Q",
@@ -421,7 +421,7 @@ window.PORTFOLIO_DATA = {
           "pieces": [
             {
               "id": "a-generacion-y-edicion-animatic-seguros",
-              "title": "ANIMATIC Seguros",
+              "title": "Pieza principal",
               "type": "video",
               "preview": "assets/posters/a-generacion-y-edicion-animatic-seguros.jpg",
               "original": "https://youtu.be/hAiqBGWj_7Q",
@@ -437,13 +437,13 @@ window.PORTFOLIO_DATA = {
         },
         {
           "title": "Semana de la Dulzura",
-          "description": "Pieza de campana para Arcor.",
+          "description": "Comunicación desarrollada para Arcor en el marco de la Semana de la Dulzura. Fue una de las primeras piezas del equipo trabajadas con herramientas de IA dentro del proceso audiovisual.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "a-generacion-y-edicion-arcor-semana-de-la-dulzura",
           "main": {
             "id": "a-generacion-y-edicion-arcor-semana-de-la-dulzura",
-            "title": "Arcor Semana de la Dulzura",
+            "title": "Pieza principal",
             "type": "video",
             "preview": "assets/posters/a-generacion-y-edicion-arcor-semana-de-la-dulzura.jpg",
             "original": "https://youtu.be/InaOZRp_ADU",
@@ -458,7 +458,7 @@ window.PORTFOLIO_DATA = {
           "pieces": [
             {
               "id": "a-generacion-y-edicion-arcor-semana-de-la-dulzura",
-              "title": "Arcor Semana de la Dulzura",
+              "title": "Pieza principal",
               "type": "video",
               "preview": "assets/posters/a-generacion-y-edicion-arcor-semana-de-la-dulzura.jpg",
               "original": "https://youtu.be/InaOZRp_ADU",
@@ -469,43 +469,6 @@ window.PORTFOLIO_DATA = {
               "youtubeId": "InaOZRp_ADU",
               "youtubeUrl": "https://youtu.be/InaOZRp_ADU",
               "embedUrl": "https://www.youtube.com/embed/InaOZRp_ADU"
-            }
-          ]
-        },
-        {
-          "title": "Pizza Para Ocho",
-          "description": "Contenido audiovisual con tratamiento de edicion y generacion.",
-          "kind": "video",
-          "galleryHref": "",
-          "mainId": "a-generacion-y-edicion-pizza-para-ocho",
-          "main": {
-            "id": "a-generacion-y-edicion-pizza-para-ocho",
-            "title": "Pizza Para Ocho",
-            "type": "video",
-            "preview": "assets/posters/a-generacion-y-edicion-pizza-para-ocho.jpg",
-            "original": "https://youtu.be/17kklHbTE2w",
-            "full": "https://youtu.be/17kklHbTE2w",
-            "extension": "MP4",
-            "sizeMb": 17.5,
-            "provider": "youtube",
-            "youtubeId": "17kklHbTE2w",
-            "youtubeUrl": "https://youtu.be/17kklHbTE2w",
-            "embedUrl": "https://www.youtube.com/embed/17kklHbTE2w"
-          },
-          "pieces": [
-            {
-              "id": "a-generacion-y-edicion-pizza-para-ocho",
-              "title": "Pizza Para Ocho",
-              "type": "video",
-              "preview": "assets/posters/a-generacion-y-edicion-pizza-para-ocho.jpg",
-              "original": "https://youtu.be/17kklHbTE2w",
-              "full": "https://youtu.be/17kklHbTE2w",
-              "extension": "MP4",
-              "sizeMb": 17.5,
-              "provider": "youtube",
-              "youtubeId": "17kklHbTE2w",
-              "youtubeUrl": "https://youtu.be/17kklHbTE2w",
-              "embedUrl": "https://www.youtube.com/embed/17kklHbTE2w"
             }
           ]
         }
@@ -521,13 +484,13 @@ window.PORTFOLIO_DATA = {
       "projects": [
         {
           "title": "BNA Mundial",
-          "description": "Promos y PNTs generados para verticales de comunicacion del banco.",
+          "description": "Sistema de piezas publicitarias desarrollado para Banco Nación en el marco del Mundial 2026, con comunicaciones adaptadas para televisión y redes sociales.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9",
           "main": {
             "id": "a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9",
-            "title": "Promo Generico",
+            "title": "Promo general",
             "type": "video",
             "preview": "assets/posters/a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9.jpg",
             "original": "https://youtu.be/llfRzn-AZbs",
@@ -556,7 +519,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9",
-              "title": "Promo Generico",
+              "title": "Promo general",
               "type": "video",
               "preview": "assets/posters/a-generacion-bna-bna-mundial-promo-generico-30-seg-16x9.jpg",
               "original": "https://youtu.be/llfRzn-AZbs",
@@ -599,8 +562,8 @@ window.PORTFOLIO_DATA = {
           ]
         },
         {
-          "title": "Colecciones La Nacion",
-          "description": "Piezas audiovisuales para la coleccion Rock de Aca.",
+          "title": "Colecciones La Nación",
+          "description": "Sistema de piezas audiovisuales para Colecciones La Nación, con videos individuales desarrollados para distintas entregas de la sección.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "youtube-colecciones-la-nacion-cerveza",
@@ -649,7 +612,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "youtube-colecciones-la-nacion-fito",
-              "title": "Fito",
+              "title": "Rock de Acá: Fito",
               "type": "video",
               "preview": "assets/posters/youtube/youtube-colecciones-la-nacion-fito.jpg",
               "original": "https://youtu.be/vFLdSbiUKKg",
@@ -663,7 +626,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "youtube-colecciones-la-nacion-seru",
-              "title": "Seru",
+              "title": "Rock de Acá: Serú",
               "type": "video",
               "preview": "assets/posters/youtube/youtube-colecciones-la-nacion-seru.jpg",
               "original": "https://youtu.be/g-5pDAQby7k",
@@ -677,7 +640,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "youtube-colecciones-la-nacion-divididos",
-              "title": "Divididos",
+              "title": "Rock de Acá: Divididos",
               "type": "video",
               "preview": "assets/posters/youtube/youtube-colecciones-la-nacion-divididos.jpg",
               "original": "https://youtu.be/BV2LO5qyGKM",
@@ -720,14 +683,14 @@ window.PORTFOLIO_DATA = {
           ]
         },
         {
-          "title": "Coppel Mexico",
-          "description": "Galeria de imagenes finales para campana grafica. Se excluyen masters TIF pesados.",
+          "title": "Coppel México",
+          "description": "Serie de imágenes generadas para tiendas físicas de Coppel México, desarrolladas como piezas visuales de campaña y comunicación en punto de venta.",
           "kind": "gallery",
           "galleryHref": "../coppel-mexico.html",
           "mainId": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-1-moda-joven-56-vino-high-300dpi-copy",
           "main": {
             "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-1-moda-joven-56-vino-high-300dpi-copy",
-            "title": "1 Moda Joven 56 vino",
+            "title": "Moda joven - Fondo amarillo",
             "type": "image",
             "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/1-moda-joven-56-vino.webp",
             "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/1-moda-joven-56-vino.webp",
@@ -738,7 +701,7 @@ window.PORTFOLIO_DATA = {
           "pieces": [
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-1-moda-joven-56-vino-high-300dpi-amarilla-copy",
-              "title": "1 Moda Joven 56 vino AMARILLA",
+              "title": "Moda joven - Fondo amarillo",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/1-moda-joven-56-vino-amarilla.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/1-moda-joven-56-vino-amarilla.webp",
@@ -748,7 +711,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-1-moda-joven-56-vino-high-300dpi-copy",
-              "title": "1 Moda Joven 56 vino",
+              "title": "Moda joven - Fondo claro",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/1-moda-joven-56-vino.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/1-moda-joven-56-vino.webp",
@@ -758,7 +721,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-2-discapacidad-06-gris-300x300-cm-300-dpi-new-copy",
-              "title": "2 Discapacidad 06 GRIS cm 300 dpi",
+              "title": "Discapacidad - Fondo gris",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/2-discapacidad-06-gris-cm-300-dpi.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/2-discapacidad-06-gris-cm-300-dpi.webp",
@@ -768,7 +731,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-2-discapacidad-amarillo-300x300cm-a-300-dpi-new-copy",
-              "title": "2 Discapacidad Amarillo 300x300cm a 300 DPI",
+              "title": "Discapacidad - Fondo amarillo",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/2-discapacidad-amarillo-300x300cm-a-300-dpi.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/2-discapacidad-amarillo-300x300cm-a-300-dpi.webp",
@@ -778,7 +741,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-2-moda-joven-dupla-300x300-cm-300dpi-gris-copy",
-              "title": "2 Moda Joven dupla cm GRIS",
+              "title": "Moda joven dupla - Fondo gris",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/2-moda-joven-dupla-cm-gris.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/2-moda-joven-dupla-cm-gris.webp",
@@ -788,7 +751,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-2-moda-joven-dupla-300x300-cm-300dpi-copy",
-              "title": "2 Moda Joven dupla cm",
+              "title": "Moda joven dupla - Fondo claro",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/2-moda-joven-dupla-cm.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/2-moda-joven-dupla-cm.webp",
@@ -798,7 +761,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-3-lenceria-2-330x330cm-300dpi-amarilla-copy",
-              "title": "3 Lenceria 2 330x330cm AMARILLA",
+              "title": "Lencería - Fondo amarillo",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/3-lenceria-2-330x330cm-amarilla.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/3-lenceria-2-330x330cm-amarilla.webp",
@@ -808,17 +771,17 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-3-lenceria-2-330x330cm-300dpi-copy",
-              "title": "3 Lenceria 2 330x330cm",
+              "title": "Lencería - Fondo claro",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/3-lenceria-2-330x330cm.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/3-lenceria-2-330x330cm.webp",
               "full": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/3-lenceria-2-330x330cm.webp",
               "extension": "JPG",
-              "sizeMb": 1358.0
+              "sizeMb": 1358
             },
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-4-deportivo-dupla-300x300-cm-300dpi-gris-copy",
-              "title": "4 Deportivo Dupla cm GRIS",
+              "title": "Deportivo dupla - Fondo gris",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/4-deportivo-dupla-cm-gris.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/4-deportivo-dupla-cm-gris.webp",
@@ -828,7 +791,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-4-deportivo-dupla-300x300-cm-300dpi-copy",
-              "title": "4 Deportivo Dupla cm",
+              "title": "Deportivo dupla - Fondo claro",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/4-deportivo-dupla-cm.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/4-deportivo-dupla-cm.webp",
@@ -838,7 +801,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-5-mascota-22-300x300x300-amarillo-copy",
-              "title": "5 Mascota 22 AMARILLO",
+              "title": "Mascota - Fondo amarillo",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/5-mascota-22-amarillo.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/5-mascota-22-amarillo.webp",
@@ -848,7 +811,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-5-mascota-22-300x300x300-copy",
-              "title": "5 Mascota",
+              "title": "Mascota - Fondo claro",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/5-mascota.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/5-mascota.webp",
@@ -858,7 +821,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-dupla-moda-joven-300x300-a-300dpi-amarillo-copy",
-              "title": "Dupla Moda Joven a AMARILLO",
+              "title": "Dupla moda joven - Fondo amarillo",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/dupla-moda-joven-a-amarillo.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/dupla-moda-joven-a-amarillo.webp",
@@ -868,7 +831,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-dupla-moda-joven-300x300-a-300dpi-gris-copy",
-              "title": "Dupla Moda Joven a GRIS",
+              "title": "Dupla moda joven - Fondo gris",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/dupla-moda-joven-a-gris.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/dupla-moda-joven-a-gris.webp",
@@ -878,7 +841,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-dupla-nin-os-08-amarillo-300x300cm300dpi-copy",
-              "title": "Ninos amarillo",
+              "title": "Niños - Fondo amarillo",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/ninos-amarillo.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/ninos-amarillo.webp",
@@ -888,7 +851,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-dupla-nin-os-08-gris-300x300cm300dpi-copy",
-              "title": "Ninos gris",
+              "title": "Niños - Fondo gris",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/ninos-gris.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/ninos-gris.webp",
@@ -898,17 +861,17 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-embarazada-06-amarillo-300x300-cm-300-dpi-copy",
-              "title": "Embarazada 06 Amarillo cm 300 dpi",
+              "title": "Embarazada - Fondo amarillo",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/embarazada-06-amarillo-cm-300-dpi.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/embarazada-06-amarillo-cm-300-dpi.webp",
               "full": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/embarazada-06-amarillo-cm-300-dpi.webp",
               "extension": "JPG",
-              "sizeMb": 1114.0
+              "sizeMb": 1114
             },
             {
               "id": "a-generacion-coppel-mexico-entrega-final-jpg-jpg-ok-embarazada-06-gris-300x300-cm-300-dpi-copy",
-              "title": "Embarazada 06 GRIS cm 300 dpi",
+              "title": "Embarazada - Fondo gris",
               "type": "image",
               "preview": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/embarazada-06-gris-cm-300-dpi.webp",
               "original": "assets/media/optimized/02-generacion-imagenes-ia/coppel-mexico/webp/embarazada-06-gris-cm-300-dpi.webp",
@@ -920,13 +883,13 @@ window.PORTFOLIO_DATA = {
         },
         {
           "title": "Cofler Gold",
-          "description": "Pieza de producto con foco en generación visual, textura y presencia de marca.",
+          "description": "Pieza desarrollada para el lanzamiento de Cofler Gold, con foco en presentación visual, producto y comunicación de marca.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "new-cofler-gold",
           "main": {
             "id": "new-cofler-gold",
-            "title": "Cofler Gold",
+            "title": "Pieza principal",
             "type": "video",
             "preview": "assets/posters/new-projects/cofler-gold.jpg",
             "original": "https://youtu.be/IcKBIO5QPwE",
@@ -941,7 +904,7 @@ window.PORTFOLIO_DATA = {
           "pieces": [
             {
               "id": "new-cofler-gold",
-              "title": "Cofler Gold",
+              "title": "Pieza principal",
               "type": "video",
               "preview": "assets/posters/new-projects/cofler-gold.jpg",
               "original": "https://youtu.be/IcKBIO5QPwE",
@@ -957,7 +920,7 @@ window.PORTFOLIO_DATA = {
         },
         {
           "title": "Poxipol",
-          "description": "Serie de piezas generadas para campaña, agrupadas por variantes visuales.",
+          "description": "Piezas desarrolladas para Poxipol, con distintas versiones visuales adaptadas a situaciones y locaciones de campaña.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "new-poxipol-rosario",
@@ -1008,7 +971,7 @@ window.PORTFOLIO_DATA = {
         },
         {
           "title": "Hogareñas",
-          "description": "Pieza de generación audiovisual para producto, con foco en presencia visual y ritmo digital.",
+          "description": "Spot publicitario realizado para Arcor Bulgaria, centrado en la presentación de las galletitas Hogareñas Cereal Mix.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "new-hogarenas-cereal-mix",
@@ -1045,7 +1008,7 @@ window.PORTFOLIO_DATA = {
         },
         {
           "title": "Zurich Hogar Gamer",
-          "description": "Pieza para Zurich Hogar con tratamiento visual orientado a campaña y comunicación digital.",
+          "description": "Spot publicitario desarrollado para Zurich Seguros, con una propuesta visual centrada en el universo de hogar y gaming.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "new-zurich-hogar-gamer",
@@ -1082,13 +1045,13 @@ window.PORTFOLIO_DATA = {
         },
         {
           "title": "Toddler Cambias",
-          "description": "Contenido generado para pieza audiovisual de marca, trabajado desde imagen, ritmo y resolución visual.",
+          "description": "Pieza desarrollada para la campaña comercial de lanzamiento de Toddler, nueva marca de productos para bebé.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "new-toddler-cambias",
           "main": {
             "id": "new-toddler-cambias",
-            "title": "Cambias",
+            "title": "Pieza principal",
             "type": "video",
             "preview": "assets/posters/new-projects/toddler-cambias.jpg",
             "original": "https://youtu.be/gaMn1IoXseU",
@@ -1103,7 +1066,7 @@ window.PORTFOLIO_DATA = {
           "pieces": [
             {
               "id": "new-toddler-cambias",
-              "title": "Cambias",
+              "title": "Pieza principal",
               "type": "video",
               "preview": "assets/posters/new-projects/toddler-cambias.jpg",
               "original": "https://youtu.be/gaMn1IoXseU",
@@ -1119,7 +1082,7 @@ window.PORTFOLIO_DATA = {
         },
         {
           "title": "Storyboard Prosegur",
-          "description": "Secuencia visual completa para storyboard.",
+          "description": "Storyboard desarrollado como parte de un proceso de preproducción. Funciona como una maqueta visual para ordenar la secuencia narrativa, los planos y el tono general antes de avanzar hacia una pieza final.",
           "kind": "gallery",
           "galleryHref": "../storyboard-prosegur.html",
           "mainId": "a-generacion-storyboard-prosegur-1-llegada",
@@ -1131,7 +1094,7 @@ window.PORTFOLIO_DATA = {
             "original": "assets/media/optimized/02-generacion-imagenes-ia/storyboard-prosegur/01-llegada.webp",
             "full": "assets/media/optimized/02-generacion-imagenes-ia/storyboard-prosegur/01-llegada.webp",
             "extension": "PNG",
-            "sizeMb": 9.0
+            "sizeMb": 9
           },
           "pieces": [
             {
@@ -1152,7 +1115,7 @@ window.PORTFOLIO_DATA = {
               "original": "assets/media/optimized/02-generacion-imagenes-ia/storyboard-prosegur/01-llegada.webp",
               "full": "assets/media/optimized/02-generacion-imagenes-ia/storyboard-prosegur/01-llegada.webp",
               "extension": "PNG",
-              "sizeMb": 9.0
+              "sizeMb": 9
             },
             {
               "id": "a-generacion-storyboard-prosegur-2-int-auto",
@@ -1212,7 +1175,7 @@ window.PORTFOLIO_DATA = {
               "original": "assets/media/optimized/02-generacion-imagenes-ia/storyboard-prosegur/07-plano-de-transicion.webp",
               "full": "assets/media/optimized/02-generacion-imagenes-ia/storyboard-prosegur/07-plano-de-transicion.webp",
               "extension": "JPG",
-              "sizeMb": 7.0
+              "sizeMb": 7
             },
             {
               "id": "a-generacion-storyboard-prosegur-6-corregido",
@@ -1302,7 +1265,7 @@ window.PORTFOLIO_DATA = {
               "original": "assets/media/optimized/02-generacion-imagenes-ia/storyboard-prosegur/16-camara-living.webp",
               "full": "assets/media/optimized/02-generacion-imagenes-ia/storyboard-prosegur/16-camara-living.webp",
               "extension": "PNG",
-              "sizeMb": 7.0
+              "sizeMb": 7
             },
             {
               "id": "a-generacion-storyboard-prosegur-12-guarda-raqueta-1-copy",
@@ -1332,7 +1295,7 @@ window.PORTFOLIO_DATA = {
               "original": "assets/media/optimized/02-generacion-imagenes-ia/storyboard-prosegur/19-detalle-camara.webp",
               "full": "assets/media/optimized/02-generacion-imagenes-ia/storyboard-prosegur/19-detalle-camara.webp",
               "extension": "PNG",
-              "sizeMb": 6.0
+              "sizeMb": 6
             },
             {
               "id": "a-generacion-storyboard-prosegur-14-salida-casa-1",
@@ -1352,19 +1315,19 @@ window.PORTFOLIO_DATA = {
               "original": "assets/media/optimized/02-generacion-imagenes-ia/storyboard-prosegur/21-auto-se-va.webp",
               "full": "assets/media/optimized/02-generacion-imagenes-ia/storyboard-prosegur/21-auto-se-va.webp",
               "extension": "PNG",
-              "sizeMb": 8.0
+              "sizeMb": 8
             }
           ]
         },
         {
           "title": "Hamlet",
-          "description": "Serie de versiones generadas para Arcor Hamlet.",
+          "description": "Pieza audiovisual desarrollada para Chocolates Hamlet, con foco en producto, presencia visual y comunicación de marca.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "a-generacion-hamlet-arcor-hamlet-f-final-1",
           "main": {
             "id": "a-generacion-hamlet-arcor-hamlet-f-final-1",
-            "title": "Final 1",
+            "title": "Pieza principal",
             "type": "video",
             "preview": "assets/posters/a-generacion-hamlet-arcor-hamlet-f-final-1.jpg",
             "original": "https://youtu.be/jQAGhvMeyOA",
@@ -1379,7 +1342,7 @@ window.PORTFOLIO_DATA = {
           "pieces": [
             {
               "id": "a-generacion-hamlet-arcor-hamlet-f-final-1",
-              "title": "Final 1",
+              "title": "Pieza principal",
               "type": "video",
               "preview": "assets/posters/a-generacion-hamlet-arcor-hamlet-f-final-1.jpg",
               "original": "https://youtu.be/jQAGhvMeyOA",
@@ -1394,14 +1357,14 @@ window.PORTFOLIO_DATA = {
           ]
         },
         {
-          "title": "Arcor Cofler Obleas Max",
-          "description": "Pieza generada para producto Cofler.",
+          "title": "Cofler Obleas Max",
+          "description": "Spot para redes desarrollado para comunicar el lanzamiento de Cofler Obleas Max, nuevo producto de la línea Cofler.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "a-generacion-arcor-cofler-obleas-max",
           "main": {
             "id": "a-generacion-arcor-cofler-obleas-max",
-            "title": "Arcor Cofler Obleas Max",
+            "title": "Pieza principal",
             "type": "video",
             "preview": "assets/posters/a-generacion-arcor-cofler-obleas-max.jpg",
             "original": "https://youtu.be/Qxbnex-0x74",
@@ -1416,7 +1379,7 @@ window.PORTFOLIO_DATA = {
           "pieces": [
             {
               "id": "a-generacion-arcor-cofler-obleas-max",
-              "title": "Arcor Cofler Obleas Max",
+              "title": "Pieza principal",
               "type": "video",
               "preview": "assets/posters/a-generacion-arcor-cofler-obleas-max.jpg",
               "original": "https://youtu.be/Qxbnex-0x74",
@@ -1432,13 +1395,13 @@ window.PORTFOLIO_DATA = {
         },
         {
           "title": "Cofler Dulce de Leche",
-          "description": "Contenido generado para producto Cofler.",
+          "description": "Spot para redes desarrollado para comunicar el lanzamiento de Cofler Dulce de Leche, nuevo producto de la línea Cofler.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "a-generacion-cofler-dulce-de-leche",
           "main": {
             "id": "a-generacion-cofler-dulce-de-leche",
-            "title": "Cofler Dulce De Leche",
+            "title": "Pieza principal",
             "type": "video",
             "preview": "assets/posters/a-generacion-cofler-dulce-de-leche.jpg",
             "original": "https://youtu.be/ofxjjZ5Vkc4",
@@ -1453,7 +1416,7 @@ window.PORTFOLIO_DATA = {
           "pieces": [
             {
               "id": "a-generacion-cofler-dulce-de-leche",
-              "title": "Cofler Dulce De Leche",
+              "title": "Pieza principal",
               "type": "video",
               "preview": "assets/posters/a-generacion-cofler-dulce-de-leche.jpg",
               "original": "https://youtu.be/ofxjjZ5Vkc4",
@@ -1469,13 +1432,13 @@ window.PORTFOLIO_DATA = {
         },
         {
           "title": "T-Mobile / Bad Bunny",
-          "description": "Pieza generada para entorno digital.",
+          "description": "Spot desarrollado para T-Mobile Puerto Rico en el marco de una gira de Bad Bunny, con una propuesta visual orientada a comunicación digital de marca.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "a-generacion-t-mobile-bad-bunny-online-final-hd-digital-sin-subs",
           "main": {
             "id": "a-generacion-t-mobile-bad-bunny-online-final-hd-digital-sin-subs",
-            "title": "T Mobile Bad Bunny Online HD Digital Sin Subs",
+            "title": "Pieza principal",
             "type": "video",
             "preview": "assets/posters/a-generacion-t-mobile-bad-bunny-online-final-hd-digital-sin-subs.jpg",
             "original": "https://youtu.be/XpHZPCY6ifg",
@@ -1490,7 +1453,7 @@ window.PORTFOLIO_DATA = {
           "pieces": [
             {
               "id": "a-generacion-t-mobile-bad-bunny-online-final-hd-digital-sin-subs",
-              "title": "T Mobile Bad Bunny Online HD Digital Sin Subs",
+              "title": "Pieza principal",
               "type": "video",
               "preview": "assets/posters/a-generacion-t-mobile-bad-bunny-online-final-hd-digital-sin-subs.jpg",
               "original": "https://youtu.be/XpHZPCY6ifg",
@@ -1516,7 +1479,7 @@ window.PORTFOLIO_DATA = {
       "projects": [
         {
           "title": "UNICEF",
-          "description": "Producciones filmadas para UNICEF, agrupadas como piezas de rodaje y contenido institucional/digital.",
+          "description": "Producciones audiovisuales realizadas para UNICEF en distintos formatos y campañas, incluyendo piezas institucionales, entrevistas y contenidos digitales.",
           "kind": "video",
           "galleryHref": "",
           "mainId": "new-unicef-tiago-bhavi-1",
@@ -1607,7 +1570,7 @@ window.PORTFOLIO_DATA = {
             },
             {
               "id": "new-unicef-sebastian-waisgrais",
-              "title": "Sebastián Waisgrais",
+              "title": "Entrevista Sebastián Waisgrais",
               "type": "video",
               "preview": "assets/posters/new-projects/unicef-sebastian-waisgrais.jpg",
               "original": "https://youtu.be/UMRgWp4XiRY",
@@ -1618,6 +1581,43 @@ window.PORTFOLIO_DATA = {
               "youtubeUrl": "https://youtu.be/UMRgWp4XiRY",
               "embedUrl": "https://www.youtube.com/embed/UMRgWp4XiRY",
               "youtubeId": "UMRgWp4XiRY"
+            }
+          ]
+        },
+        {
+          "title": "Pizza Para Ocho",
+          "description": "Trabajo audiovisual realizado en el marco de la materia Iluminación y Cámara II. Fue una producción grupal desarrollada junto a tres compañeros, abordando el proceso completo de realización.",
+          "kind": "video",
+          "galleryHref": "",
+          "mainId": "a-generacion-y-edicion-pizza-para-ocho",
+          "main": {
+            "id": "a-generacion-y-edicion-pizza-para-ocho",
+            "title": "Pieza principal",
+            "type": "video",
+            "preview": "assets/posters/a-generacion-y-edicion-pizza-para-ocho.jpg",
+            "original": "https://youtu.be/17kklHbTE2w",
+            "full": "https://youtu.be/17kklHbTE2w",
+            "extension": "MP4",
+            "sizeMb": 17.5,
+            "provider": "youtube",
+            "youtubeId": "17kklHbTE2w",
+            "youtubeUrl": "https://youtu.be/17kklHbTE2w",
+            "embedUrl": "https://www.youtube.com/embed/17kklHbTE2w"
+          },
+          "pieces": [
+            {
+              "id": "a-generacion-y-edicion-pizza-para-ocho",
+              "title": "Pieza principal",
+              "type": "video",
+              "preview": "assets/posters/a-generacion-y-edicion-pizza-para-ocho.jpg",
+              "original": "https://youtu.be/17kklHbTE2w",
+              "full": "https://youtu.be/17kklHbTE2w",
+              "extension": "MP4",
+              "sizeMb": 17.5,
+              "provider": "youtube",
+              "youtubeId": "17kklHbTE2w",
+              "youtubeUrl": "https://youtu.be/17kklHbTE2w",
+              "embedUrl": "https://www.youtube.com/embed/17kklHbTE2w"
             }
           ]
         }

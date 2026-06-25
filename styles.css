@@ -3469,3 +3469,132 @@ body[data-page="home"]::before {
     padding: 0 0 0.3rem;
   }
 }
+
+/* Role chips + cleaner hero slider */
+.drawer-role {
+  grid-template-columns: 1fr;
+  align-items: start;
+  gap: 0.65rem;
+}
+
+.drawer-role .drawer-role-label {
+  color: rgba(244, 240, 232, 0.62);
+  font-size: 0.68rem;
+  font-weight: 850;
+  letter-spacing: 0.14em;
+  line-height: 1;
+  text-transform: uppercase;
+}
+
+.drawer-role-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem;
+}
+
+.drawer-role .drawer-role-chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.42rem;
+  min-height: 2.05rem;
+  padding: 0.42rem 0.68rem 0.42rem 0.48rem;
+  border: 1px solid rgba(255, 255, 255, 0.11);
+  border-radius: 999px;
+  color: rgba(244, 240, 232, 0.9);
+  background: rgba(255, 255, 255, 0.045);
+  font-size: 0.8rem;
+  font-weight: 760;
+  letter-spacing: 0;
+  line-height: 1.1;
+  text-transform: none;
+  transition: transform 180ms ease, border-color 180ms ease, background 180ms ease, box-shadow 180ms ease;
+}
+
+.drawer-role .drawer-role-chip:hover {
+  transform: translateY(-2px);
+  border-color: rgba(139, 92, 246, 0.55);
+  background: rgba(139, 92, 246, 0.13);
+  box-shadow: 0 12px 34px rgba(0, 0, 0, 0.22), 0 0 22px rgba(139, 92, 246, 0.14);
+}
+
+.drawer-role-icon {
+  width: 1.18rem;
+  height: 1.18rem;
+  display: inline-grid;
+  place-items: center;
+  border-radius: 999px;
+  color: #fff;
+  background: linear-gradient(135deg, rgba(139, 92, 246, 0.95), rgba(192, 38, 211, 0.72));
+  font-size: 0.72rem;
+  line-height: 1;
+  box-shadow: 0 0 18px rgba(139, 92, 246, 0.22);
+}
+
+.hero-montage {
+  height: clamp(30rem, 64vh, 46rem);
+}
+
+.montage-viewport {
+  inset: 2rem 0 4.75rem;
+  min-height: 20rem;
+}
+
+.montage-item {
+  flex-basis: clamp(22rem, 31vw, 38rem);
+}
+
+.montage-item strong,
+.montage-caption {
+  display: none;
+}
+
+.montage-item::after {
+  background:
+    linear-gradient(180deg, rgba(0, 0, 0, 0.02), transparent 54%, rgba(0, 0, 0, 0.28)),
+    linear-gradient(120deg, rgba(139, 92, 246, 0.08), transparent 40%);
+}
+
+.montage-image {
+  filter: saturate(0.98) contrast(1.04) brightness(0.92);
+}
+
+@media (max-width: 920px) {
+  .hero-montage {
+    height: clamp(24rem, 54vh, 34rem);
+  }
+
+  .montage-viewport {
+    inset: 1.4rem 0 4.35rem;
+    min-height: 16rem;
+  }
+
+  .montage-item {
+    flex-basis: min(82vw, 30rem);
+  }
+}
+
+@media (max-width: 720px) {
+  .drawer-role-list {
+    gap: 0.38rem;
+  }
+
+  .drawer-role .drawer-role-chip {
+    min-height: 1.92rem;
+    padding: 0.38rem 0.58rem 0.38rem 0.42rem;
+    font-size: 0.74rem;
+  }
+
+  .hero-montage {
+    height: clamp(21rem, 58vh, 30rem);
+  }
+
+  .montage-viewport {
+    inset: 1rem 0 4rem;
+    min-height: 14rem;
+  }
+
+  .montage-item {
+    flex-basis: min(78vw, 23rem);
+    border-radius: 16px;
+  }
+}
