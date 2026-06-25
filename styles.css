@@ -1555,6 +1555,14 @@ body.drawer-open {
   transform: translateY(-1.75rem) scale(1);
 }
 
+.hero-montage.is-marquee .brand-logo-overlay.is-spotlight.slider-align-center img {
+  transform: translateY(0.15rem) scale(0.9);
+}
+
+.hero-montage.is-marquee .montage-item:hover .brand-logo-overlay.is-spotlight.slider-align-center img {
+  transform: translateY(0) scale(1);
+}
+
 .work-card.has-brand-logo:hover .work-hover-label {
   opacity: 0;
 }

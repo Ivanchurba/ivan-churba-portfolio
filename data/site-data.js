@@ -1893,7 +1893,7 @@ window.PORTFOLIO_DATA = {
           "brandLogo": "assets/logos/racing.png",
           "brandLogoAnimation": "spotlight",
           "brandLogoAlign": "lift-high",
-          "brandLogoSliderAlign": "lift"
+          "brandLogoSliderAlign": "center"
         },
         {
           "title": "UNICEF",
