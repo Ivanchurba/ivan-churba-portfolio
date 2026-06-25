@@ -1305,7 +1305,6 @@ body.drawer-open {
 }
 
 .work-card[data-open-project="edicion-generacion-ia-arcor-pascuas"] .work-image {
-  width: auto;
   justify-self: center;
 }
 
@@ -4157,6 +4156,7 @@ body[data-page="home"]::before {
 
 /* Project-specific thumbnail framing */
 .work-image[src*="coppel-mexico"],
+.montage-image[src*="coppel-mexico"],
 .project-media[src*="coppel-mexico"],
 .gallery-image[src*="coppel-mexico"],
 .drawer-thumb-image[src*="coppel-mexico"] {
