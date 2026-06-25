@@ -1455,6 +1455,10 @@ body.drawer-open {
 .work-card:hover .brand-logo-overlay.is-spotlight,
 .montage-item:hover .brand-logo-overlay.is-spotlight {
   clip-path: circle(78% at 50% 50%);
+  transform: scale(1);
+}
+
+.hero-montage.is-marquee .montage-item:hover .brand-logo-overlay.is-spotlight {
   transform: scale(1.5);
 }
 
@@ -1532,6 +1536,23 @@ body.drawer-open {
 .work-card:hover .brand-logo-overlay.is-spotlight.align-lift img,
 .montage-item:hover .brand-logo-overlay.is-spotlight.align-lift img {
   transform: translateY(-2.35rem) scale(1);
+}
+
+.brand-logo-overlay.is-spotlight.align-lift-high img {
+  transform: translateY(-1.8rem) scale(0.9);
+}
+
+.work-card:hover .brand-logo-overlay.is-spotlight.align-lift-high img,
+.montage-item:hover .brand-logo-overlay.is-spotlight.align-lift-high img {
+  transform: translateY(-3.1rem) scale(1);
+}
+
+.hero-montage.is-marquee .brand-logo-overlay.is-spotlight.slider-align-lift img {
+  transform: translateY(-1.05rem) scale(0.9);
+}
+
+.hero-montage.is-marquee .montage-item:hover .brand-logo-overlay.is-spotlight.slider-align-lift img {
+  transform: translateY(-1.75rem) scale(1);
 }
 
 .work-card.has-brand-logo:hover .work-hover-label {

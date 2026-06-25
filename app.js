@@ -235,8 +235,9 @@ function brandLogoMarkup(project, className = "brand-logo-overlay") {
   const treatment = project.brandLogoTreatment ? ` treatment-${slug(project.brandLogoTreatment)}` : "";
   const scale = project.brandLogoScale ? ` scale-${slug(project.brandLogoScale)}` : "";
   const align = project.brandLogoAlign ? ` align-${slug(project.brandLogoAlign)}` : "";
+  const sliderAlign = project.brandLogoSliderAlign ? ` slider-align-${slug(project.brandLogoSliderAlign)}` : "";
   return `
-    <span class="${className}${variant}${treatment}${scale}${align}" aria-hidden="true">
+    <span class="${className}${variant}${treatment}${scale}${align}${sliderAlign}" aria-hidden="true">
       <img src="${escapeHtml(project.brandLogo)}" alt="" loading="lazy" decoding="async">
     </span>
   `;

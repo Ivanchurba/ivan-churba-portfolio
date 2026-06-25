@@ -1121,7 +1121,7 @@ window.PORTFOLIO_DATA = {
           "brandLogo": "assets/logos/hogarenas.png",
           "brandLogoAnimation": "spotlight",
           "brandLogoTreatment": "warm-mono",
-          "brandLogoAlign": "lift"
+          "brandLogoAlign": "lift-high"
         },
         {
           "title": "Zurich Hogar Gamer",
@@ -1892,7 +1892,8 @@ window.PORTFOLIO_DATA = {
           ],
           "brandLogo": "assets/logos/racing.png",
           "brandLogoAnimation": "spotlight",
-          "brandLogoAlign": "lift"
+          "brandLogoAlign": "lift-high",
+          "brandLogoSliderAlign": "lift"
         },
         {
           "title": "UNICEF",
@@ -2042,7 +2043,8 @@ window.PORTFOLIO_DATA = {
           ],
           "brandLogo": "assets/logos/uba.png",
           "brandLogoAnimation": "spotlight",
-          "brandLogoTreatment": "warm-mono"
+          "brandLogoTreatment": "warm-mono",
+          "brandLogoAlign": "lift-high"
         }
       ]
     }
