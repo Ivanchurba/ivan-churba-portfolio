@@ -1309,6 +1309,11 @@ body.drawer-open {
   justify-self: center;
 }
 
+.work-card[data-open-project="edicion-generacion-ia-arcor-pascuas"] .work-thumb {
+  display: grid;
+  place-items: center;
+}
+
 .work-card:hover .work-image {
   transform: scale(1.055);
   filter: saturate(1.08) contrast(1.04);
@@ -4162,8 +4167,7 @@ body[data-page="home"]::before {
 .montage-image[src*="arcor-pascuas-rocklets-cohete"],
 .project-media[src*="arcor-pascuas-rocklets-cohete"],
 .drawer-piece-image[src*="arcor-pascuas-rocklets-cohete"] {
-  object-fit: contain;
-  background: #07070a;
+  object-position: center center;
 }
 
 /* Final gallery drawer alignment */
@@ -4301,5 +4305,39 @@ body[data-page="home"]::before {
 
   .project-drawer:not(.is-gallery-fullscreen) .drawer-body.is-gallery-drawer .drawer-thumb-strip {
     grid-auto-columns: min(42vw, 9.25rem);
+  }
+}
+
+/* Mobile video drawers use one natural scroll surface. Opening/changing a
+   project scrolls this panel back to the featured video in app.js. */
+@media (max-width: 979px) {
+  .project-drawer:not(.is-gallery-fullscreen) .drawer-panel {
+    overflow-y: auto;
+  }
+
+  .project-drawer:not(.is-gallery-fullscreen) .drawer-body.has-related:not(.is-gallery-drawer) {
+    height: auto;
+    min-height: 100%;
+    display: block;
+    overflow: visible;
+  }
+
+  .project-drawer:not(.is-gallery-fullscreen) .drawer-body.has-related:not(.is-gallery-drawer) .drawer-feature {
+    display: block;
+  }
+
+  .project-drawer:not(.is-gallery-fullscreen) .drawer-body.has-related:not(.is-gallery-drawer) .drawer-heading {
+    max-height: none;
+    overflow: visible;
+    padding-right: 0;
+  }
+
+  .project-drawer:not(.is-gallery-fullscreen) .drawer-body.has-related:not(.is-gallery-drawer) .drawer-video-frame {
+    max-height: none;
+  }
+
+  .project-drawer:not(.is-gallery-fullscreen) .drawer-body.has-related:not(.is-gallery-drawer) .drawer-related {
+    overflow: visible;
+    padding-bottom: 1.5rem;
   }
 }

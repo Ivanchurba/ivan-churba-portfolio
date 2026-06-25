@@ -768,6 +768,7 @@ function openProject(project) {
   $("#projectDrawer")?.classList.add("is-open");
   $("#projectDrawer")?.setAttribute("aria-hidden", "false");
   document.body.classList.add("drawer-open");
+  scrollDrawerToTop();
 }
 
 function closeProjectDrawer() {
@@ -803,6 +804,20 @@ function renderProjectDrawer() {
       ${isGallery ? drawerGalleryMarkup() : project.pieces.length > 1 ? drawerPieceListMarkup(project) : ""}
     </div>
   `;
+}
+
+function scrollDrawerToTop() {
+  window.requestAnimationFrame(() => {
+    const panel = $("#projectDrawer .drawer-panel");
+    const body = $("#drawerBody");
+    panel?.scrollTo({ top: 0, behavior: "auto" });
+    body?.scrollTo?.({ top: 0, behavior: "auto" });
+  });
+}
+
+function renderProjectDrawerAtTop() {
+  renderProjectDrawer();
+  scrollDrawerToTop();
 }
 
 function drawerVideoMarkup(project, piece) {
@@ -998,9 +1013,9 @@ function bindInteractions() {
       const media = $("#drawerMedia");
       if (media && !window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
         media.classList.add("is-switching");
-        window.setTimeout(renderProjectDrawer, 130);
+        window.setTimeout(renderProjectDrawerAtTop, 130);
       } else {
-        renderProjectDrawer();
+        renderProjectDrawerAtTop();
       }
       return;
     }
