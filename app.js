@@ -803,11 +803,14 @@ function renderProjectDrawer() {
     <div class="drawer-feature">
       <div class="drawer-heading">
         <p class="eyebrow">${escapeHtml(projectSectionLabel(project.section))} · ${escapeHtml(projectType(project))}</p>
-        <h2 id="drawerTitle">${escapeHtml(project.title)}</h2>
+        <div class="drawer-title-row">
+          <h2 id="drawerTitle">${escapeHtml(project.title)}</h2>
+          <span class="drawer-title-separator" aria-hidden="true"></span>
+          <p class="drawer-brief">${escapeHtml(projectBrief(project))}</p>
+        </div>
       </div>
       <div class="drawer-context">
         ${projectRoleMarkup(project)}
-        <p class="drawer-brief">${escapeHtml(projectBrief(project))}</p>
       </div>
       <div class="drawer-stage">
         <div class="drawer-media" id="drawerMedia">
